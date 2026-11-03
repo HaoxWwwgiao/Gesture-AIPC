@@ -1,4 +1,4 @@
-"""Offline source inventory check. No model loading, downloads or device access."""
+"""Offline release integrity check, including two exact authorized frozen weights."""
 import argparse
 import ast
 import hashlib
@@ -10,9 +10,21 @@ ALLOWED={'.py','.ps1','.tcl','.cs','.js','.cjs','.mjs','.css','.html','.svg','.m
 SPECIAL={'LICENSE','NOTICE','.gitignore','.gitattributes'}
 SKIP={'.git','.venv','__pycache__','_local'}
 SECRETS=re.compile(rb'github_pat_[A-Za-z0-9_]{30,}|gh[pousr]_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|AKIA[0-9A-Z]{16}')
+MODELS={
+    'project/model_package/mode_b/detector_background_v2/model.onnx':
+        (44666590,'5999c0e1e2d2631cf68b086b1b667ec87eabbb5268b1d6550421371520308cce'),
+    'project/model_package/mode_b/surface_eraser_repair_v1/weights.pt':
+        (6148747,'9143a31f4ced63410d1bb3b3367139eb48dda68551e0aedce12eceda9b5f8f93'),
+}
 
 def inspect_file(path, name):
     if path.is_symlink():raise ValueError('Symbolic link: '+name)
+    if name in MODELS:
+        size,expected=MODELS[name]
+        if path.stat().st_size!=size:raise ValueError('Frozen weight size mismatch: '+name)
+        with path.open('rb') as stream:digest=hashlib.file_digest(stream,'sha256').hexdigest()
+        if digest!=expected:raise ValueError('Frozen weight hash mismatch: '+name)
+        return {'path':name,'bytes':size,'sha256':digest,'role':'AUTHORIZED_FROZEN_MODEL'}
     if path.suffix.lower() not in ALLOWED and name not in SPECIAL:raise ValueError('Non-source file: '+name)
     raw=path.read_bytes()
     if len(raw)>2_000_000:raise ValueError('Oversized source: '+name)
@@ -55,9 +67,17 @@ def verify(root):
     if set(actual)!=set(expected):raise ValueError('Inventory missing/extra: '+str(sorted(set(actual)^set(expected))))
     for name,row in actual.items():
         if row['sha256']!=expected[name]['sha256'] or row['bytes']!=expected[name]['bytes']:raise ValueError('Changed source: '+name)
-    return dict(source_subset_passed=True,files=len(actual),python_files=sum(n.endswith('.py') for n in actual),
-                runtime_ready=False,model_weights_included=False,training_images_included=False,
-                hardware_access=False,npu_acceptance='NOT_RUN',full_runtime_assets='EXTERNAL_REQUIRED')
+    weights=[n for n in actual if n in MODELS]
+    if manifest.get('model_weights_included') and set(weights)!=set(MODELS):raise ValueError('Expected both frozen model files')
+    runtime_manifest=root/'deployment/b_vision/MINIMUM_VISION_RUNTIME.json'
+    visual_ready=False
+    if runtime_manifest.is_file():
+        runtime=json.loads(runtime_manifest.read_bytes())
+        visual_ready=all('project/'+r['path'] in actual and actual['project/'+r['path']]['sha256']==r['sha256'] for r in runtime['files'])
+    return dict(source_subset_passed=True,release_integrity_passed=True,files=len(actual),python_files=sum(n.endswith('.py') for n in actual),
+                runtime_ready=False,b_visual_runtime_assets_complete=visual_ready,model_weights_included=bool(weights),
+                frozen_model_files=len(weights),training_images_included=False,hardware_access=False,
+                npu_acceptance='NOT_RUN',full_runtime_assets='FPGA_CAD_AND_HARDWARE_ASSETS_EXTERNAL_REQUIRED')
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);args=ap.parse_args()

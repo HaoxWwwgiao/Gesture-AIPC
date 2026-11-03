@@ -1,0 +1,127 @@
+{
+  "schema": "gesture.aipc.public_runtime_model_validation.v1",
+  "date": "2026-11-03",
+  "edition": "2026-11-03-runtime-models.1",
+  "runtime_files_verified": 31,
+  "packaging_and_integrity_tests_passed": 9,
+  "input_image_sha256": "681e9b250c8555234f177cc1572d8d273665a318854acd8d4a7288d70b8378a0",
+  "input_scope": "ONE_PREVIOUSLY_SAVED_RED_CUBE_FRAME_NOT_INDEPENDENT_TEST",
+  "recognitions": [
+    "red_cube"
+  ],
+  "object_centre_desktop_xyz_mm": [
+    651.8952034619932,
+    257.8932297745481,
+    15.0
+  ],
+  "prior_same_frame_replay_matches": true,
+  "detector": {
+    "requested_backend": "onnx_cpu",
+    "actual_backend": "onnx_cpu",
+    "role": "mode_b_detector",
+    "framework": "onnxruntime",
+    "framework_version": "1.31.0",
+    "actual_providers": [
+      "CPUExecutionProvider"
+    ],
+    "cpu_fallback": false,
+    "precision": "fp32",
+    "classes": [
+      "red_cube",
+      "yellow_cube",
+      "blue_cube",
+      "eraser",
+      "small_canister",
+      "scissors"
+    ],
+    "trained_classes": [
+      "red_cube",
+      "yellow_cube",
+      "blue_cube",
+      "eraser",
+      "small_canister",
+      "scissors"
+    ],
+    "model_sha256": "5999c0e1e2d2631cf68b086b1b667ec87eabbb5268b1d6550421371520308cce",
+    "package_sha256": "cf97be7f3611da688bd5287ef59a796d19d782b85a25c725186937cd00027fe9",
+    "npu_execution_verified": false,
+    "hardware_acceptance": "PENDING",
+    "spatial_inference_policy": {
+      "method": "FULL_FRAME_PLUS_OVERLAPPING_SQUARES_V1",
+      "minimum_tile_overlap": 0.25,
+      "classwise_merge_iou": 0.5,
+      "interior_edge_margin_raw_px": 2,
+      "max_tiles": 16,
+      "thresholds_unchanged": true
+    },
+    "spatial_pass_count": 4,
+    "spatial_views": [
+      {
+        "roi_xywh_raw": null,
+        "timing_ms": {
+          "preprocess": 11.82,
+          "model": 59.6498,
+          "decode_nms": 2.6919
+        }
+      },
+      {
+        "roi_xywh_raw": [
+          0,
+          0,
+          1080,
+          1080
+        ],
+        "timing_ms": {
+          "preprocess": 2.5065,
+          "model": 45.0563,
+          "decode_nms": 0.3141
+        }
+      },
+      {
+        "roi_xywh_raw": [
+          420,
+          0,
+          1080,
+          1080
+        ],
+        "timing_ms": {
+          "preprocess": 2.362,
+          "model": 39.6196,
+          "decode_nms": 0.3274
+        }
+      },
+      {
+        "roi_xywh_raw": [
+          840,
+          0,
+          1080,
+          1080
+        ],
+        "timing_ms": {
+          "preprocess": 2.6393,
+          "model": 40.3765,
+          "decode_nms": 0.2038
+        }
+      }
+    ],
+    "internal_edge_rejections": []
+  },
+  "surface": {
+    "actual_backend": "torch_cpu",
+    "requested_backend": "torch_cpu",
+    "framework": "torch",
+    "framework_version": "2.14.1+cpu",
+    "hip_version": null,
+    "model_sha256": "9143a31f4ced63410d1bb3b3367139eb48dda68551e0aedce12eceda9b5f8f93",
+    "device": "cpu",
+    "hardware_acceptance": "PENDING",
+    "cpu_fallback": false
+  },
+  "independent_mm_accuracy_accepted": false,
+  "hip_inference_this_release": "NOT_RUN",
+  "npu": "NOT_RUN",
+  "camera_access": false,
+  "robot_access": false,
+  "physical_execution": false,
+  "path_submissions": 0
+}

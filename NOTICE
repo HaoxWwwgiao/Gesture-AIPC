@@ -1,20 +1,21 @@
-Gesture-AIPC — AI PC source edition
+Gesture-AIPC — AI PC source and frozen B-vision runtime models
 Copyright (c) 2026 Gesture project contributors.
 
-Team-original AI PC source and documentation are licensed under
-GNU Affero General Public License version 3 only (AGPL-3.0-only).
-The complete license is in LICENSE. Existing third-party notices prevail.
+Team-original source and documentation are licensed under GNU Affero General
+Public License version 3 only (AGPL-3.0-only); see LICENSE. Third-party notices
+and applicable upstream terms remain in effect.
 
-This source snapshot contains no model weight tensors, training photos,
-datasets, FPGA implementation or original private Git history. Model package
-JSON files contain metadata, not the associated trained weights. Host-side
-register/serial protocol helpers are included as AI PC interface dependencies.
+Two exact frozen runtime model files are included following the project
+operator's explicit confirmation on 2026-11-03 that public downloads are allowed.
+See docs/WEIGHT_DISTRIBUTION_RECORD.json for their identities and release basis.
+Original model metadata and model bytes are preserved. Historical source/license
+audit records remain dated records, distinct from this publication decision.
 
 Ultralytics follows the AGPL route; no Enterprise license is claimed.
-TorchVision code uses BSD-3-Clause; pretrained weight and image rights are
-separate. LVIS annotations use CC-BY-4.0; photographs retain individual terms.
-Source publication does not clear the rights of excluded model/data assets.
+TorchVision software uses BSD-3-Clause; pretrained sources are documented
+separately. LVIS annotations and photographs have distinct terms.
+Training images/datasets, CAD meshes, FPGA implementation and original private
+Git history are not included. No upstream endorsement is implied.
 
-Corresponding source for this edition:
+Corresponding project source:
 https://github.com/HaoxWwwgiao/Gesture-AIPC
-See THIRD_PARTY_NOTICES.md and docs/MODEL_ASSETS.md for scope.

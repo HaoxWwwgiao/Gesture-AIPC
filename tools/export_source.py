@@ -1,4 +1,4 @@
-"""Export only the checked source inventory, including its manifest; no Git history."""
+"""Export checked source and authorized frozen models; no Git history or datasets."""
 import argparse
 import hashlib
 import json

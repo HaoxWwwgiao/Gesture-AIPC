@@ -1,41 +1,38 @@
-# 源码版复现边界与步骤
+# 复现步骤与边界
 
-## 1. 取得和验证源码
+## 1. 校验源码和冻结模型
 
 ```powershell
 git clone https://github.com/HaoxWwwgiao/Gesture-AIPC.git
 Set-Location Gesture-AIPC
 python -B tools/verify_source_release.py
+python -B deployment/b_vision/verify_runtime_assets.py --root project
+python -B -m unittest discover -s tools -p test_source_release.py -v
+python -B -m unittest discover -s deployment/b_vision -p test_runtime_assets.py -v
 ```
 
-本仓库是新建历史的源码快照；`docs/SOURCE_PROVENANCE.json`记录原始文件SHA，`source_manifest.json`记录本次发布全部源码。原 `project/mode_ab_manifest.json` 校验的是完整封存运行包；它不用于证明这个子集可运行，也没有为适应缺文件而放宽。
+当前版本包含两份参数及独立B视觉配置、标定与投影代码。清单校验只需标准库，不加载模型或设备。新仓库历史不包含原私有开发历史；逐文件来源保存在`SOURCE_PROVENANCE.json`。原源码版离线检查记录仍保留为历史，新增模型运行验证另存`validation/b_visual_runtime_20261103.json`。
 
-源码版另附开发目录中的4个团队原创数值计划，作为边界显示/规划的参考，逐项标注`DEVELOPMENT_NUMERIC_PLAN_REFERENCE_SUPPLEMENT`；它们不包含网格或固件，不能替代完整部署包。源码版`pc/mode_ab/http.py`增加了有界丢弃未授权POST请求体的处理，避免Windows上返回403前因未读请求体触发TCP重置；不解析该请求或排队动作。该差异记录在来源清单，未改私有生产目录。
+## 2. 运行B视觉
 
-## 2. 运行离线测试与网页预览
+按`deployment/b_vision/README_CN.md`分别准备CPU开发或Windows/HIP环境，执行该目录的`run_image.py`。使用者提供一张与标定机位相符的原始图片；源码和参数均已包含，训练数据不参与推理。结果是桌面毫米候选坐标，物理执行为false、路径提交为0。
 
-先按根README执行标准库测试。可选创建独立Python3.12虚拟环境并安装`requirements-preview.txt`，再运行：
+## 3. 网页离线预览
 
 ```powershell
-.\.venv\Scripts\python.exe -B -m unittest discover -s project/scripts -p test_mode_ab_http.py -v
-.\.venv\Scripts\python.exe -B -m unittest discover -s project/scripts -p test_mode_ab_diagnostics.py -v
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-preview.txt
 .\.venv\Scripts\python.exe -B project/scripts/run_mode_ab.py --preview --no-browser --out-dir _local/preview_001
 ```
 
-HTTP测试使用假相机/假板状态及本机回环连接，不访问真实设备。Node.js可选执行`node project/scripts/test_mode_ab_ui.cjs`。不运行`test_*.py`全目录发现：部分历史测试依赖未包含的运行包、网格或板卡。
+打开本机网址查看断开设备状态的UI，Ctrl+C退出。该步骤未自动连接相机或板卡。带设备的生产`--run`、`--check-only`仍执行原封存完整包校验；本仓库不包含全部FPGA、历史证据、网格和整机资产。
 
-## 3. 查看训练和导出接口
+## 4. 训练和导出
 
-`project/scripts/train_mode_b_public.py`为六类检测训练；`train_mode_b_surface.py`为顶面训练；`export_mode_b.py`为静态ONNX导出。`train_multiobject*`为早期三色路线。训练脚本来自开发工作区，逐文件标注`DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT`，没有冒充封存生产代码。
+`project/scripts/train_mode_b_public.py`、`train_mode_b_surface.py`和`export_mode_b.py`提供六类检测、顶面训练和静态ONNX导出接口。早期三色代码为`train_multiobject*`。开发CPU版本参考`project/requirements-multiobject-cpu.txt`；数据依赖参考`requirements-mode-b-data.txt`。先执行各脚本的`--help`，实际训练需自行取得适用的数据、标签及初始化文件；历史脚本可能还为训练报告核验原始起点SHA。本仓库没有公开训练数据，也未声称可只凭现有文件重训出同SHA参数。
 
-开发CPU环境历史版本见`project/requirements-multiobject-cpu.txt`，数据依赖见`project/requirements-mode-b-data.txt`；请与生产AMD环境分开。依赖安装可能需对应上游版本可用的索引，源码发布未验证全新联网安装历史环境。
+## 5. 规划与整机
 
-先查`python project/scripts/train_mode_b_public.py --help`、`python project/scripts/train_mode_b_surface.py --help`及`python project/scripts/export_mode_b.py --help`。训练实际需要自行合法取得数据、标签及初始化/暖启动参数。某些历史脚本即使使用暖启动，报告阶段仍校验原始起点文件SHA，不能只补一个当前checkpoint就假定依赖齐全。
+源码保留主机规划、状态机和板卡接口。当前规划会读取URDF和碰撞STL，因此完整规划还需要匹配网格；纯视觉入口不需要。整机还需匹配板端固件、计划、HOME过渡和现场标定。原完整包门禁未删改，不能把独立视觉文件完整解释为整机抓放已经验收。
 
-没有提供一键下载全部历史素材的脚本，也没有声称可仅凭本仓库重训出与现场同精度、同SHA的模型。公开数据来源和参数分发条款尚未全部核清；不要从旧权重继续微调后宣称历史来源已经清除。
-
-## 4. 完整推理、定位和抓放
-
-当前权重身份、路径及外部依赖见`MODEL_ASSETS.md`。相机移动、变焦、分辨率变化后必须重新标定；配置文件中的旧桌面坐标、补偿和实际尺寸仅为原现场记录。完成模型/设备/标定验证后，仍需配套板端运行包、路径计划和真实硬件联测。此源码版不包含它们，不能从网页预览直接完成抓放。
-
-本次验证限定为代码语法、指定离线回归和短时无设备网页服务；没有重新验证识别精度、毫米精度、NPU、HIP或物理成功率。具体运行结果见`validation/source_checks.json`。
+当前公开下载确认见`WEIGHT_DISTRIBUTION_RECORD.json`，第三方来源声明见根目录`THIRD_PARTY_NOTICES.md`。旧审计文件保持原日期和原结论，当前发布决定单独记录。

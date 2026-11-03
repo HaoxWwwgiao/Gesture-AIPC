@@ -1,0 +1,217 @@
+{
+  "schema": "gesture.aipc.minimum_vision_runtime.v1",
+  "date": "2026-11-03",
+  "scope": "STANDALONE_SAVED_IMAGE_B_VISION_P41_ADAPTER",
+  "entry": "run_image.py",
+  "configuration": "config/ai_pc/mode_b_visual_current_20261029.json",
+  "detector_package": "model_package/mode_b/detector_background_v2/model.json",
+  "surface_package": "model_package/mode_b/surface_eraser_repair_v1/model.json",
+  "profile": "config/ai_pc/mode_b_six_objects_v1.json",
+  "projection_source": "artifacts/phase3c/top_metric_check_20261028/replay_saved_tops.py",
+  "files": [
+    {
+      "path": "artifacts/phase3c/mode_b_ttl_20261028/coordinate_retake_v2/pose_candidate_v2_E2/DIRECTION_CHECK.json",
+      "sha256": "6ac415e13ab2948ae16ff4e225af33973fbc7930e6b775a2a3b0dd5200a8b739",
+      "bytes": 22420,
+      "role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "artifacts/phase3c/mode_b_ttl_20261028/coordinate_retake_v2/pose_candidate_v2_E2/RGB_DESKTOP_TRANSFORM_CANDIDATE.json",
+      "sha256": "7bc4444cbffa6fb84c3b4d0526b7105789d46e714cd1f932b3163e5d8748a77f",
+      "bytes": 2927,
+      "role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "artifacts/phase3c/mode_b_ttl_20261028/coordinate_retake_v2/pose_candidate_v2_E2/WORKSPACE_CANDIDATE.json",
+      "sha256": "75e24034da57139df3b8a013dda3ead1aace086a58d271efda588624cdb153f1",
+      "bytes": 1179,
+      "role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "artifacts/phase3c/top_metric_check_20261028/replay_saved_tops.py",
+      "sha256": "42b2553b32d4df223a52098cf60cb90be6981d714fc004bfddfc409dd7589632",
+      "bytes": 13148,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "config/ai_pc/mode_b_full_workspace_20261030.json",
+      "sha256": "e56aa4cd52078d802f21d908ab8521b6b89e73d028f825e5dad001856eaf2e2f",
+      "bytes": 821,
+      "role": "P41_WORKSPACE_POLICY"
+    },
+    {
+      "path": "config/ai_pc/mode_b_six_objects_v1.json",
+      "sha256": "038561eb1c4847ef444a6ae91f5de1a86c7d4f800560e71fce1e9f826416a031",
+      "bytes": 2231,
+      "role": "CLASS_AND_GEOMETRY_PROFILE"
+    },
+    {
+      "path": "config/ai_pc/mode_b_visual_current_20261029.json",
+      "sha256": "6a2cbb52a0861e052e7c3dea7d7142587b02bb0c30b39942b7a2adfda921deed",
+      "bytes": 91492,
+      "role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "docs/phase3b/calibration/RGB_INTRINSICS_CANDIDATE_20261014.json",
+      "sha256": "15fd11a87bb39aec230a2bb5aa0bf2e7846390d76dd48fe5955becde3f634200",
+      "bytes": 1810,
+      "role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "model_package/mode_b/detector_background_v2/model.json",
+      "sha256": "cf97be7f3611da688bd5287ef59a796d19d782b85a25c725186937cd00027fe9",
+      "bytes": 3102,
+      "role": "MODEL_METADATA"
+    },
+    {
+      "path": "model_package/mode_b/detector_background_v2/model.onnx",
+      "sha256": "5999c0e1e2d2631cf68b086b1b667ec87eabbb5268b1d6550421371520308cce",
+      "bytes": 44666590,
+      "role": "TRAINED_WEIGHT"
+    },
+    {
+      "path": "model_package/mode_b/surface_eraser_repair_v1/model.json",
+      "sha256": "d71afc46ea197b0fdab77142c3a99d9acf4b73ca885f24dc949a9af13f957a8b",
+      "bytes": 1573,
+      "role": "MODEL_METADATA"
+    },
+    {
+      "path": "model_package/mode_b/surface_eraser_repair_v1/weights.pt",
+      "sha256": "9143a31f4ced63410d1bb3b3367139eb48dda68551e0aedce12eceda9b5f8f93",
+      "bytes": 6148747,
+      "role": "TRAINED_WEIGHT"
+    },
+    {
+      "path": "pc/mode_ab/gpu.py",
+      "sha256": "f1c02a333b56ea29b35c2efb36691442486d624436eb2991c40bae52ec918ffa",
+      "bytes": 4940,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/mode_ab/vision_workspace.py",
+      "sha256": "830ff85cb5ebf5c1ebb254b331afd8ce12db5a9bc9b8cabee260c88c3404404f",
+      "bytes": 3987,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/mode_ab/workspace.py",
+      "sha256": "65adf284afea8c52a74811834c634256495117b00918da8dd22f7c1b2ef3796d",
+      "bytes": 1523,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "pc/mode_b/geometry.py",
+      "sha256": "9a614ff05e4a433151f4378449db9824a5ada47146120026a192b4ca192843ce",
+      "bytes": 11397,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "pc/mode_b/perception.py",
+      "sha256": "1b1d02a27800568f53e6e332077710c2d9cc30bef09e020da6ac2e0a34259553",
+      "bytes": 5370,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/mode_b/profile.py",
+      "sha256": "36d77913ba860f63f1a90d2c39406686ee16232afedae8a6ac9b1ffeba0f492f",
+      "bytes": 2816,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/mode_b/surface_ensemble.py",
+      "sha256": "13a81241ba13551d4530c826b3d185d4cb4c08903ee470720988ba46bbd7de34",
+      "bytes": 3045,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/mode_b/tiled_detector.py",
+      "sha256": "151ad63c2be314eae58eae14cf30c1967c1d60f6e77be827390b84c69d461b7f",
+      "bytes": 4114,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/multiobject/dataset.py",
+      "sha256": "2e721031db2615b4ddc0d6e08121b3082c2f26c21c8056bda15e772e343a64b7",
+      "bytes": 5415,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/multiobject/evidence.py",
+      "sha256": "d457eb8d1620ce1b0165ed250ed21a3538080b7868ac5be6c20142d8f60e6d20",
+      "bytes": 1449,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "pc/multiobject/pixel_top.py",
+      "sha256": "4eefdc1afad1e8326cc29ad65994ace37b493adcb140e736a27edc2043364795",
+      "bytes": 1850,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "pc/multiobject/registry.py",
+      "sha256": "11b9ecd65a911afd544ba13dc966e7ab3b103ef93a3a86c147dce4005cea25f9",
+      "bytes": 2383,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "pc/multiobject/surface.py",
+      "sha256": "5e61a048130855689886f471536ce629c42d7b038a4dcc18e93b5dbb2b792e5c",
+      "bytes": 4645,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "pc/multiobject/yolo.py",
+      "sha256": "323a600a9c09ce0ec3723fa9a0214493a93034f50fa6d52b440ddfd3bdcdc3b3",
+      "bytes": 9191,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "pc/rgb_table_geometry.py",
+      "sha256": "f3bc5fd14eca9deb492573ad008fb22238b272888b6d57257a46cef98bc4465a",
+      "bytes": 5036,
+      "role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
+      "path": "pc/rgb_workspace_overlay.py",
+      "sha256": "0ad205ce1925d020d5c2d4525bd1da326155ec423b395d7206e5ec1405b4c925",
+      "bytes": 4223,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "scripts/mode_b_eraser_geometry.py",
+      "sha256": "13aeb94bb1086cb5d69334bbda0cec06de5a001f7b904027380a4043613cea76",
+      "bytes": 1134,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "scripts/replay_mode_b_visual_bundle.py",
+      "sha256": "4aa59c138ff40491663fe348152ce3343ef137bdaa9eda38e078c7300ca0e2a7",
+      "bytes": 5657,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    },
+    {
+      "path": "scripts/verify_mode_b_visual_bundle.py",
+      "sha256": "7b2ade5aace504a3a621e87a2eca7fa8e5351a3d582c2b9427e267cef28b3f02",
+      "bytes": 3156,
+      "role": "PYTHON_IMPORT_CLOSURE_SOURCE"
+    }
+  ],
+  "source_selection": "P41_PUBLIC_SOURCE_PREFERRED_THEN_EXACT_LOCAL_DEVELOPMENT_FALLBACK",
+  "inventory_policy": "CONSERVATIVE_STATIC_PYTHON_IMPORT_CLOSURE_AND_EXPLICIT_RUNTIME_READS",
+  "training_data_required": false,
+  "fpga_required": false,
+  "robot_mesh_required": false,
+  "hardware_access": false,
+  "cpu_inference_validation": "PASS_ONE_SAVED_RED_FRAME_NOT_INDEPENDENT_TEST",
+  "hip_inference_validation": "NOT_RUN",
+  "cpu_observed_existing_runtime_files": 28,
+  "training_images_read": 0,
+  "original_historical_freeze_gate_modified": false,
+  "weight_distribution_authorization": {
+    "status": "USER_CONFIRMED_PUBLIC_DOWNLOAD_ALLOWED",
+    "date": "2026-11-03",
+    "user_statement": "权重都已允许下载",
+    "scope": "TWO_EXACT_FROZEN_WEIGHTS_PUBLISHED_IN_Gesture_AIPC",
+    "historical_audit_records_preserved": true
+  }
+}

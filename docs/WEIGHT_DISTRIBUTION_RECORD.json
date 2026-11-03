@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "status": "USER_CONFIRMED_PUBLIC_DOWNLOAD_ALLOWED",
+  "authorization_messages": [
+    "不用管其他，直接把需要的都上传",
+    "权重都已允许下载"
+  ],
+  "scope": "CURRENT_TWO_FROZEN_MODEL_FILES_AND_AI_PC_VISION_RUNTIME",
+  "weights": [
+    {
+      "path": "project/model_package/mode_b/detector_background_v2/model.onnx",
+      "sha256": "5999c0e1e2d2631cf68b086b1b667ec87eabbb5268b1d6550421371520308cce",
+      "bytes": 44666590,
+      "download_url": "https://raw.githubusercontent.com/HaoxWwwgiao/Gesture-AIPC/main/project/model_package/mode_b/detector_background_v2/model.onnx"
+    },
+    {
+      "path": "project/model_package/mode_b/surface_eraser_repair_v1/weights.pt",
+      "sha256": "9143a31f4ced63410d1bb3b3367139eb48dda68551e0aedce12eceda9b5f8f93",
+      "bytes": 6148747,
+      "download_url": "https://raw.githubusercontent.com/HaoxWwwgiao/Gesture-AIPC/main/project/model_package/mode_b/surface_eraser_repair_v1/weights.pt"
+    }
+  ],
+  "historical_license_audit_files": "PRESERVED_AS_DATED_RECORDS",
+  "training_images_included": false,
+  "model_bytes_changed": false
+}

@@ -3,6 +3,9 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
+import hashlib
+import verify_source_release
 from verify_source_release import inspect_file,verify
 
 class Tests(unittest.TestCase):
@@ -27,5 +30,13 @@ class Tests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             p=Path(folder)/'model.json';p.write_text(json.dumps({'state_dict':{'layer.weight':[0.1]*256}}))
             with self.assertRaises(ValueError):inspect_file(p,'model.json')
+    def test_only_exact_authorized_model_bytes_are_accepted(self):
+        with tempfile.TemporaryDirectory() as folder:
+            p=Path(folder)/'fixture.pt';payload=b'fixture';p.write_bytes(payload)
+            name='project/model_package/test/fixture.pt'
+            with patch.dict(verify_source_release.MODELS,{name:(len(payload),hashlib.sha256(payload).hexdigest())}):
+                self.assertEqual(inspect_file(p,name)['role'],'AUTHORIZED_FROZEN_MODEL')
+                p.write_bytes(b'changed')
+                with self.assertRaises(ValueError):inspect_file(p,name)
 
 if __name__=='__main__':unittest.main()

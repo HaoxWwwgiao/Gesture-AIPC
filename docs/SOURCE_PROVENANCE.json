@@ -86,6 +86,34 @@
       "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
     },
     {
+      "path": "project/artifacts/phase3c/mode_b_ttl_20261028/coordinate_retake_v2/pose_candidate_v2_E2/DIRECTION_CHECK.json",
+      "sha256": "6ac415e13ab2948ae16ff4e225af33973fbc7930e6b775a2a3b0dd5200a8b739",
+      "bytes": 22420,
+      "origin": "P41_VISUAL_RUNTIME_DEPENDENCY",
+      "runtime_role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "project/artifacts/phase3c/mode_b_ttl_20261028/coordinate_retake_v2/pose_candidate_v2_E2/RGB_DESKTOP_TRANSFORM_CANDIDATE.json",
+      "sha256": "7bc4444cbffa6fb84c3b4d0526b7105789d46e714cd1f932b3163e5d8748a77f",
+      "bytes": 2927,
+      "origin": "P41_VISUAL_RUNTIME_DEPENDENCY",
+      "runtime_role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "project/artifacts/phase3c/mode_b_ttl_20261028/coordinate_retake_v2/pose_candidate_v2_E2/WORKSPACE_CANDIDATE.json",
+      "sha256": "75e24034da57139df3b8a013dda3ead1aace086a58d271efda588624cdb153f1",
+      "bytes": 1179,
+      "origin": "P41_VISUAL_RUNTIME_DEPENDENCY",
+      "runtime_role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
+      "path": "project/artifacts/phase3c/top_metric_check_20261028/replay_saved_tops.py",
+      "sha256": "42b2553b32d4df223a52098cf60cb90be6981d714fc004bfddfc409dd7589632",
+      "bytes": 13148,
+      "origin": "P41_VISUAL_RUNTIME_DEPENDENCY",
+      "runtime_role": "PYTHON_RUNTIME_SOURCE"
+    },
+    {
       "path": "project/config/ai_pc/mode1_fixed_path_20261026_v01.json",
       "sha256": "354aefca5bcb671246e1a286f4cf1b0b23d50d2e38b119ed9747edd9fd09e3b1",
       "git_blob": "f834768d350f2fce705009502403086966a70f08",
@@ -324,6 +352,13 @@
       "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
     },
     {
+      "path": "project/docs/phase3b/calibration/RGB_INTRINSICS_CANDIDATE_20261014.json",
+      "sha256": "15fd11a87bb39aec230a2bb5aa0bf2e7846390d76dd48fe5955becde3f634200",
+      "bytes": 1810,
+      "origin": "P41_VISUAL_RUNTIME_DEPENDENCY",
+      "runtime_role": "VISION_CONFIGURATION_AND_CALIBRATION"
+    },
+    {
       "path": "project/docs/phase3c/mode_b_optimized_handoff_20261030/objects/eraser/PLAN.json",
       "bytes": 441359,
       "sha256": "c0c35386a74b5601f805e0a4bb93430e7a97f22332fc5fe0032b3fd8c0ec83d2",
@@ -366,11 +401,25 @@
       "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
     },
     {
+      "path": "project/model_package/mode_b/detector_background_v2/model.onnx",
+      "sha256": "5999c0e1e2d2631cf68b086b1b667ec87eabbb5268b1d6550421371520308cce",
+      "bytes": 44666590,
+      "origin": "CURRENT_FROZEN_WEIGHT_USER_AUTHORIZED_PUBLIC_DOWNLOAD",
+      "runtime_role": "TRAINED_WEIGHT"
+    },
+    {
       "path": "project/model_package/mode_b/surface_eraser_repair_v1/model.json",
       "sha256": "d71afc46ea197b0fdab77142c3a99d9acf4b73ca885f24dc949a9af13f957a8b",
       "git_blob": "6b109cc8699910eedfb10b0eaad250737206877a",
       "bytes": 1573,
       "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/model_package/mode_b/surface_eraser_repair_v1/weights.pt",
+      "sha256": "9143a31f4ced63410d1bb3b3367139eb48dda68551e0aedce12eceda9b5f8f93",
+      "bytes": 6148747,
+      "origin": "CURRENT_FROZEN_WEIGHT_USER_AUTHORIZED_PUBLIC_DOWNLOAD",
+      "runtime_role": "TRAINED_WEIGHT"
     },
     {
       "path": "project/pc/alignment.py",

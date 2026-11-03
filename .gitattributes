@@ -1,2 +1,4 @@
 # Preserve baseline hashes across Windows clones; files already carry their source encoding.
 * -text
+*.onnx -diff
+*.pt -diff

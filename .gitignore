@@ -33,3 +33,7 @@ _local/
 *.avi
 project/datasets/
 project/local/
+
+# Two exact frozen weights explicitly authorized for public download, 2026-11-03.
+!project/model_package/mode_b/detector_background_v2/model.onnx
+!project/model_package/mode_b/surface_eraser_repair_v1/weights.pt
