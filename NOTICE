@@ -1,0 +1,20 @@
+Gesture-AIPC — AI PC source edition
+Copyright (c) 2026 Gesture project contributors.
+
+Team-original AI PC source and documentation are licensed under
+GNU Affero General Public License version 3 only (AGPL-3.0-only).
+The complete license is in LICENSE. Existing third-party notices prevail.
+
+This source snapshot contains no model weight tensors, training photos,
+datasets, FPGA implementation or original private Git history. Model package
+JSON files contain metadata, not the associated trained weights. Host-side
+register/serial protocol helpers are included as AI PC interface dependencies.
+
+Ultralytics follows the AGPL route; no Enterprise license is claimed.
+TorchVision code uses BSD-3-Clause; pretrained weight and image rights are
+separate. LVIS annotations use CC-BY-4.0; photographs retain individual terms.
+Source publication does not clear the rights of excluded model/data assets.
+
+Corresponding source for this edition:
+https://github.com/HaoxWwwgiao/Gesture-AIPC
+See THIRD_PARTY_NOTICES.md and docs/MODEL_ASSETS.md for scope.

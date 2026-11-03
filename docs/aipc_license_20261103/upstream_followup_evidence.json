@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-03",
+  "sources": [
+    {
+      "file": "torchvision_mobilenet.html",
+      "url": "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.mobilenet_v3_small.html",
+      "resolved_url": "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.mobilenet_v3_small.html",
+      "status": "FETCHED",
+      "bytes": 42817,
+      "sha256": "1114ab5063e0d212fcbf742de5a359e9cdc087ed24048deaa05d6c9454fa7af1"
+    },
+    {
+      "file": "imagenet_download_images.html",
+      "url": "https://image-net.org/download-images.php",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "file": "imagenet_download.html",
+      "url": "https://image-net.org/download.php",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "file": "imagenet_terms.html",
+      "url": "https://image-net.org/terms-of-access",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "file": "imagenet_download_faq.html",
+      "url": "https://image-net.org/download-faq.php",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "file": "ultralytics_license.html",
+      "url": "https://www.ultralytics.com/license",
+      "resolved_url": "https://www.ultralytics.com/license",
+      "status": "FETCHED",
+      "bytes": 395279,
+      "sha256": "245f249e9ae3141d99ee5866e9df02806122b30382868fbe2872c8d5c01da263"
+    },
+    {
+      "file": "coco_terms.html",
+      "url": "https://cocodataset.org/#termsofuse",
+      "resolved_url": "https://cocodataset.org/#termsofuse",
+      "status": "FETCHED",
+      "bytes": 8594,
+      "sha256": "cbcafe3697d0952c7fa936958e88699f2c000190fbbfb4cdd8376ca4461d4182"
+    },
+    {
+      "file": "officehome.html",
+      "url": "https://www.hemanthdv.org/officeHomeDataset.html",
+      "resolved_url": "https://www.hemanthdv.org/officeHomeDataset.html",
+      "status": "FETCHED",
+      "bytes": 8464,
+      "sha256": "09d9393b903eb3eb3e9b480dac7de3d54f675718ccb2b3a74c3411014aadffb1"
+    },
+    {
+      "file": "torchvision_mobilenet_source.py",
+      "url": "https://raw.githubusercontent.com/pytorch/vision/v0.28.0/torchvision/models/mobilenetv3.py",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "file": "torchvision_models.html",
+      "url": "https://docs.pytorch.org/vision/stable/models.html",
+      "resolved_url": "https://docs.pytorch.org/vision/stable/models.html",
+      "status": "FETCHED",
+      "bytes": 185098,
+      "sha256": "a991b00dd8d08d132ea4223b71307de8a5aa60312f97745e5112c7dc8cef42a4"
+    },
+    {
+      "file": "coco_explore.js",
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/explore.html",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "file": "coco_annotations_example.json",
+      "url": "https://raw.githubusercontent.com/cocodataset/cocoapi/master/annotations/instances_val2014.json",
+      "status": "FETCH_FAILED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "torchvision_mobilenet_source.py",
+      "url": "https://raw.githubusercontent.com/pytorch/vision/main/torchvision/models/mobilenetv3.py",
+      "status": "FETCHED",
+      "sha256": "5444909362734ab54f07ba64cd2d54e90854965d4d1ce6b2b337e055d0fcbb3e",
+      "bytes": 16300
+    },
+    {
+      "file": "coco_website_index.html",
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/index.html",
+      "status": "FETCH_FAILED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "cc_by_nc_nd_2_0.html",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "status": "FETCHED",
+      "sha256": "f4147242b1474e189e82d335f91e6b14b76b1b17864e3277eb6998de98855c2b",
+      "bytes": 36714
+    },
+    {
+      "file": "cc_by_nc_sa_2_0.html",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "status": "FETCHED",
+      "sha256": "ec9ff2fd668fca9462c035deda3cc337fc6682fb1c1de4d51b97330c7a5d935b",
+      "bytes": 37065
+    },
+    {
+      "file": "coco_website_tree.json",
+      "url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/trees/master?recursive=1",
+      "status": "FETCHED",
+      "sha256": "291cf3edbd1797d07557586aea61dd6bd65e5a2c05f5bce9927566375ec63c9f",
+      "bytes": 97331
+    },
+    {
+      "file": "imagenet_http_download_images.html",
+      "url": "http://image-net.org/download-images.php",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "file": "imagenet_www_download.html",
+      "url": "https://www.image-net.org/download.php",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "file": "imagenet_www_download_images.html",
+      "url": "https://www.image-net.org/download-images.php",
+      "status": "FETCH_FAILED",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "file": "coco_explorer_official.js",
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/other/cocoexplorer.js",
+      "status": "FETCHED",
+      "sha256": "7a56bdfebc23b91b489b580f62ab2e2738d3cda8479324d26575d6e73adf1ab5",
+      "bytes": 19880
+    },
+    {
+      "file": "imagenet_website_tree.json",
+      "url": "https://api.github.com/repos/image-net/imagenet-download/git/trees/master?recursive=1",
+      "status": "FETCH_FAILED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "coco_terms_official.htm",
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/termsofuse.htm",
+      "status": "FETCHED",
+      "sha256": "bd019f88ee44c29b2f19c5b99888cf5bc2e7c16f57b6e52af8ed3a60462e8bdd",
+      "bytes": 2370
+    },
+    {
+      "file": "cc_by_sa_2_0.html",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "status": "FETCHED",
+      "sha256": "6d15fd2f2ccc7258f39befc9f13f5154f9851e49a9e90ec43c7e22d660ae0e84",
+      "bytes": 35429
+    },
+    {
+      "file": "cc_by_nd_2_0.html",
+      "url": "https://creativecommons.org/licenses/by-nd/2.0/",
+      "status": "FETCHED",
+      "sha256": "2125061e3de279288600f00772e4ef49a02ae4169cba101d250589e037b5ff04",
+      "bytes": 35028
+    },
+    {
+      "file": "cc_by_2_0.html",
+      "url": "https://creativecommons.org/licenses/by/2.0/",
+      "status": "FETCHED",
+      "sha256": "bbb0dcc37f02552e7270e6d2e06be02672ce29ada816107d6fa91e1e6809714b",
+      "bytes": 31822
+    },
+    {
+      "file": "cc_by_nc_2_0.html",
+      "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "status": "FETCHED",
+      "sha256": "418cf8272fe0bfdfe928fc749ce030e096c432bbdd3b2889e82460af1ab649dc",
+      "bytes": 35185
+    }
+  ],
+  "extracts": [
+    {
+      "file": "officehome.html",
+      "source_sha256": "09d9393b903eb3eb3e9b480dac7de3d54f675718ccb2b3a74c3411014aadffb1",
+      "extracts": [
+        " on Computer Vision and Pattern Recognition}, pages={5018--5027}, year={2017} } Fair Use Notice This dataset contains some copyrighted material whose use has not been specifically authorized by the copyright owners. In an effort to advance scientific research, we make this material available for academic research. We believe this constitutes a fair use of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit for non-commercial research and educational purposes. For more information on fair use please click here. If you wish to use copyrighted material on this site or in our dataset for purposes of your own that go beyond non-commercial research and academic purposes, you must obtain permission directly from the copyright owner. (adapted from Christopher Thomas ) Page generated 2025-01-28 00:28:07 EST, by jemdoc+MathJax . "
+      ],
+      "note": "HTML tags and whitespace normalized for quotation; original SHA refers to raw bytes"
+    },
+    {
+      "file": "torchvision_models.html",
+      "source_sha256": "a991b00dd8d08d132ea4223b71307de8a5aa60312f97745e5112c7dc8cef42a4",
+      "extracts": [
+        "nvironment variable. See torch.hub.load_state_dict_from_url() for details. Note The pre-trained models provided in this library may have their own licenses or terms and conditions derived from the dataset used for training. It is your responsibility to determine whether you have permission to use the models for your use case. Note Backward compatibility is guaranteed for loading a serialized state_dict to the model created using old PyTorch version. On the contrary, loading entire saved models or serialized ScriptModules (serialized using older versions of PyTorch) may not preserve the historic behaviour. Refer to the following documentation Initializing pre-trained models ¶ As of v0.13, TorchVision offers a new Multi-weight support API for loading different weights to the existing model builder methods: from torchvision.models import resnet50 , ResNet50_Weights # Old weights with accuracy 76.130% resnet50 ( weights = ResNet50_Weights . IMAGENET1K_V1 ) # New weights with accuracy 80.858% resnet50 ( weights = ResNet50_Weights . IMAGENET1K_V2 ) # Best available weights (currently alias for IMAGENET1K_V2) # Note that these weights may change across versions resnet50 ( weights = ResNet50_Weights . DEFAULT ) # Strings are also supported resnet50 ( weights = \"IMAGENET1K_V2\" ) # No weights - random initialization resnet50 ( weights = None ) Migrating to the new API is very straightforward. The following method calls between the 2 APIs are all equivalent: from torchvision.models import resnet50 , ResNet50_Weights # Using pretrained weights: resnet50 ( weights = ResNet50_Weights . IMAGENET1K_V1 ) resnet50 ( weights = \"IMAGENET1K_V1\" ) resnet50 ( pretrained = Tr"
+      ],
+      "note": "HTML tags and whitespace normalized for quotation; original SHA refers to raw bytes"
+    },
+    {
+      "file": "torchvision_mobilenet_source.py",
+      "source_sha256": "5444909362734ab54f07ba64cd2d54e90854965d4d1ce6b2b337e055d0fcbb3e",
+      "extracts": [
+        "ion of TorchVision's `new training recipe `_. \"\"\", }, ) DEFAULT = IMAGENET1K_V2 class MobileNet_V3_Small_Weights(WeightsEnum): IMAGENET1K_V1 = Weights( url=\"https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth\", transforms=partial(ImageClassification, crop_size=224), meta={ **_COMMON_META, \"num_params\": 2542856, \"recipe\": \"https://github.com/pytorch/vision/tree/main/references/classification#mobilenetv3-large--small\", \"_metrics\": { \"ImageNet-1K\": { \"acc@1\": 67.668, \"acc@5\": 87.402, } }, \"_ops\": 0.057, \"_file_size\": 9.829, \"_docs\": \"\"\" These weights improve upon the results of the original paper by using a simple training recipe. \"\"\", }, ) DEFAULT = IMAGENET1K_V1 @register_model() @handle_legacy_interface(weights=(\"pretrained\", MobileNet_V3_Large_Weights.IMAGENET1K_V1)) def mobilenet_v3_large( *, weights: Optional[MobileNet_V3_Large_Weights] = None, progress: bool = True, **kwargs: Any ) -> MobileNetV3: \"\"\" Constructs a large MobileNetV3 architecture from `Searching for MobileNetV3 `__. Args: weights (:class:`~torchvision.models.MobileNet_V3_Large_Weights`, optional): The pretrained weights to use. See :class:`~torchvision.models.MobileNet_V3_Large_Weights` below for more details, and possible values. By default, no pre-trained weights are used. progress (bool, optional): If True, displays a progress bar of the download to stderr. Default is True. **kwargs: parameters passed to the ``torchvision.models.mobilenet.MobileNetV3`` base class. Please refer to the `source code `_ for more details about this class. .. autoclass:: torchvision.models.MobileNet_V3_Large_Weights :members: \"\"\" weights = MobileNet_V3_Large_Weights.verify(weights) inver"
+      ],
+      "note": "HTML tags and whitespace normalized for quotation; original SHA refers to raw bytes"
+    },
+    {
+      "file": "coco_terms_official.htm",
+      "source_sha256": "bd019f88ee44c29b2f19c5b99888cf5bc2e7c16f57b6e52af8ed3a60462e8bdd",
+      "extracts": [
+        " Consortium and are licensed under a Creative Commons Attribution 4.0 License . Images The COCO Consortium does not own the copyright of the images. Use of the images must abide by the Flickr Terms of Use . The users of the images accept full responsibility for the use of the dataset, including but not limited to the use of any copies of copyrighted images that they may create from the dataset. Software Copyright (c) 2015, COCO Consortium. All rights reserved. Redistribution and use software in source and binary form, with or without modification, are permitted provided that the following conditions are met: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the COCO Consortium nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE AND ANNOTATIONS ARE PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CA",
+        " Terms of Use Annotations & Website The annotations in this dataset along with this website belong to the COCO Consortium and are licensed under a Creative Commons Attribution 4.0 License . Images The COCO Consortium does not own the copyright of the images. Use of the images must abide by the Flickr Terms of Use . The users of the images accept full responsibility for the use of the dataset, including but not limited to the use of any copies of copyrighted images that they may create from the dataset. Software Copyright (c) 2015, COCO Consortium. All rights reserved. Redistribution and use software in source and binary form, with or without modification, are permitted provided that the following conditions are met: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the COCO Consortium nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE AND ANNOTATIONS ARE PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEM"
+      ],
+      "note": "HTML tags and whitespace normalized for quotation; original SHA refers to raw bytes"
+    },
+    {
+      "file": "cc_by_nc_nd_2_0.html",
+      "source_sha256": "f4147242b1474e189e82d335f91e6b14b76b1b17864e3277eb6998de98855c2b",
+      "extracts": [
+        " Deed - Attribution-NonCommercial-NoDerivs 2.0 Generic - Creative Commons Skip to content Languages available aragonés Azərbaycanca Bahasa Indonesia Basque català dansk Deutsch eesti English español Esperanto français frysk Gaeilge galego Hrvatski italiano latviešu Lietuviškai Magyar Melayu Nederlands norsk polski Português Português Brasileiro Română slovensky Slovenščina srpski (latinica) suomi svenska Türkçe Íslenska česky Ελληνικά беларуская български Русский Українська العربيّة فارسی हिंदी বাংলা 日本語 简体中文 繁體中文 한국어 Creative Commons Menu Who We Are Expand Strategic Plan Team Governance Opportunities Annual Reports &amp; Financials History Press What We Do Expand Build Open Infrastructure Expand CC Licenses CC Signals Public Domain Chooser FAQs Implement the Commons Expand Where CC Makes An Impact Resources Search the Commons Engage the People Expand Training + Webinars Advocacy Community Partnerships --> Events Blog Support Us Expand Make a Gift Ways to Give --> Open Infrastructure Circle Donor FAQ Donate Support Us --> Attribution-NonCommercial-NoDerivs 2.0 Generic CC BY-NC-ND 2.0 Deed Notice This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are more user-friendly and more internationally robust . If you are licensing your own work , we strongly recommend the use of the 4.0 license instead: Deed - Attribution-NonCommercial-NoDerivatives 4.0 International Canonical URL https://creativecommons.org/licenses/by-nc-nd/2.0/ See the legal code You are free to: Share — copy and redistribute the material in any medium or format The licensor ",
+        " recommend the use of the 4.0 license instead: Deed - Attribution-NonCommercial-NoDerivatives 4.0 International Canonical URL https://creativecommons.org/licenses/by-nc-nd/2.0/ See the legal code You are free to: Share — copy and redistribute the material in any medium or format The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms: Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. NonCommercial — You may not use the material for commercial purposes . NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices: You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation . No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material. Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use. Learn more about our work Learn more about CC Licensing Support our work Use the license for your own material. Licenses List Public Domain List Footnotes return to reference"
+      ],
+      "note": "HTML tags and whitespace normalized for quotation; original SHA refers to raw bytes"
+    },
+    {
+      "file": "cc_by_nc_sa_2_0.html",
+      "source_sha256": "ec9ff2fd668fca9462c035deda3cc337fc6682fb1c1de4d51b97330c7a5d935b",
+      "extracts": [
+        " Deed - Attribution-NonCommercial-ShareAlike 2.0 Generic - Creative Commons Skip to content Languages available aragonés Azərbaycanca Bahasa Indonesia Basque català dansk Deutsch eesti English español Esperanto français frysk Gaeilge galego Hrvatski italiano latviešu Lietuviškai Magyar Melayu Nederlands norsk polski Português Português Brasileiro Română slovensky Slovenščina srpski (latinica) suomi svenska Türkçe Íslenska česky Ελληνικά беларуская български Русский Українська العربيّة فارسی हिंदी বাংলা 日本語 简体中文 繁體中文 한국어 Creative Commons Menu Who We Are Expand Strategic Plan Team Governance Opportunities Annual Reports &amp; Financials History Press What We Do Expand Build Open Infrastructure Expand CC Licenses CC Signals Public Domain Chooser FAQs Implement the Commons Expand Where CC Makes An Impact Resources Search the Commons Engage the People Expand Training + Webinars Advocacy Community Partnerships --> Events Blog Support Us Expand Make a Gift Ways to Give --> Open Infrastructure Circle Donor FAQ Donate Support Us --> Attribution-NonCommercial-ShareAlike 2.0 Generic CC BY-NC-SA 2.0 Deed Notice This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are more user-friendly and more internationally robust . If you are licensing your own work , we strongly recommend the use of the 4.0 license instead: Deed - Attribution-NonCommercial-ShareAlike 4.0 International Canonical URL https://creativecommons.org/licenses/by-nc-sa/2.0/ See the legal code You are free to: Share — copy and redistribute the material in any medium or format Adapt — remi",
+        " Deed - Attribution-NonCommercial-ShareAlike 2.0 Generic - Creative Commons Skip to content Languages available aragonés Azərbaycanca Bahasa Indonesia Basque català dansk Deutsch eesti English español Esperanto français frysk Gaeilge galego Hrvatski italiano latviešu Lietuviškai Magyar Melayu Nederlands norsk polski Português Português Brasileiro Română slovensky Slovenščina srpski (latinica) suomi svenska Türkçe Íslenska česky Ελληνικά беларуская български Русский Українська العربيّة فارسی हिंदी বাংলা 日本語 简体中文 繁體中文 한국어 Creative Commons Menu Who We Are Expand Strategic Plan Team Governance Opportunities Annual Reports &amp; Financials History Press What We Do Expand Build Open Infrastructure Expand CC Licenses CC Signals Public Domain Chooser FAQs Implement the Commons Expand Where CC Makes An Impact Resources Search the Commons Engage the People Expand Training + Webinars Advocacy Community Partnerships --> Events Blog Support Us Expand Make a Gift Ways to Give --> Open Infrastructure Circle Donor FAQ Donate Support Us --> Attribution-NonCommercial-ShareAlike 2.0 Generic CC BY-NC-SA 2.0 Deed Notice This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are more user-friendly and more internationally robust . If you are licensing your own work , we strongly recommend the use of the 4.0 license instead: Deed - Attribution-NonCommercial-ShareAlike 4.0 International Canonical URL https://creativecommons.org/licenses/by-nc-sa/2.0/ See the legal code You are free to: Share — copy and redistribute the material in any medium or format Adapt — remix, transform, "
+      ],
+      "note": "HTML tags and whitespace normalized for quotation; original SHA refers to raw bytes"
+    }
+  ],
+  "flickr_attribution_probe": {
+    "url": "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fany%2F5218362367%2F&format=json",
+    "status": "FETCH_FAILED",
+    "error": "<urlopen error timed out>"
+  },
+  "imagenet_terms_retrieval": "FAILED_ON_MULTIPLE_OFFICIAL_URLS; NO_ASSUMED_WEIGHT_LICENSE",
+  "original_raw_snapshots": "Retained in local audit artifacts; prior root audit retains selected license snapshots"
+}

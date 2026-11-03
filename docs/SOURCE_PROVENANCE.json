@@ -1,0 +1,2287 @@
+{
+  "source_base_commit": "37931982cc60cbb740d0f81fdaa1fac0c04cecaa",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/PERMISSION_REQUEST_DRAFTS.md",
+      "sha256": "413b99c8dd3838cf01cd2c2387561a702dc7d9bd97ad24b306dc3d1eb2840064",
+      "bytes": 4283,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/README_CN.md",
+      "sha256": "0a5f3ba98c89c4725db9a6beaddbfc9a2abc455987c2df4d9cc81c9c846df33a",
+      "bytes": 9555,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/current_models_final/audit.json",
+      "sha256": "b3e585faf6536c913c5646bee1a945e4f7c2989562535c5e26afe4eb1a577bfe",
+      "bytes": 6849,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/current_models_final/used_public_image_sources.csv",
+      "sha256": "fe14fd741d961e7fe53d1d724da0cb4782e4a832eabedf40b2aca4cdafd07fcf",
+      "bytes": 33384,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/dependency_license_metadata.json",
+      "sha256": "d8daad3669a9caec2b222f9919d7741262d8b0618f7a80c1215e4a8ecd394353",
+      "bytes": 31857,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/evidence_sha256.json",
+      "sha256": "6b8f8efd69a769c8c6259092e47d482fdc2a0cd4fff3f3bcc764105d7c0ae24f",
+      "bytes": 955,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/lvis_official_image_license_mapping.json",
+      "sha256": "01409a88bccbd57ed11964b9ac7b871b1ef25d7599b17cd695d837e68698a528",
+      "bytes": 1550,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/metadata_lineage.json",
+      "sha256": "0bdd1475595e9122a601489a3825dda64b4f1d745c7593b1bd6f2b03585f2a59",
+      "bytes": 15232,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/aipc_license_20261103/upstream_followup_evidence.json",
+      "sha256": "121f54ef6296b6f9b9969a8d90bcf33d56e98c9337c650e14548ab1a288bbf0f",
+      "bytes": 23768,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/open_source_audit_20261103/upstream/coco-license-data.txt",
+      "sha256": "bd8ef15597b3b292f3bb0feed9701c1ace5bcebe07f28fb5047ec8d3d89471b1",
+      "bytes": 1533,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/open_source_audit_20261103/upstream/lvis-license-master.txt",
+      "sha256": "4648c944cf9cacdc4050aa2be0a6efc2883e725b01911dccf392989ef46ebf32",
+      "bytes": 1529,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/open_source_audit_20261103/upstream/ultralytics-version-license.txt",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "docs/open_source_audit_20261103/upstream/vision-license.txt",
+      "sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d",
+      "bytes": 1517,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "project/config/ai_pc/mode1_fixed_path_20261026_v01.json",
+      "sha256": "354aefca5bcb671246e1a286f4cf1b0b23d50d2e38b119ed9747edd9fd09e3b1",
+      "git_blob": "f834768d350f2fce705009502403086966a70f08",
+      "bytes": 12112,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_commissioning_tolerance_20261028.json",
+      "sha256": "1c1b333e76ed5fc7a4c3ee4f325cf3a2e3fc72d5cfdfb02ee99c4ce52a880d33",
+      "git_blob": "ef0318a5d9862ea34fd9ea07ead4ad299879c581",
+      "bytes": 747,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_cylinder_grasp_20261028_v2.json",
+      "sha256": "85665b69faae5f2b2a16e9be0c56acda271bb3813f899d184e57ed2de8a2f04f",
+      "git_blob": "aaa21d43f04ffcde6e82e1ede8126843968e1e42",
+      "bytes": 1253,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_cylinder_grasp_active_20261028.json",
+      "sha256": "71956afbf6e5f50ea2c7f49cdba701f0e2f3457f08168b7f28548875c40fbae0",
+      "git_blob": "f906c8b02593e0fe7ece2a0c3efceba6ad8f9071",
+      "bytes": 224,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_eraser_grasp_20261028_v4.json",
+      "sha256": "43db7ec53e8c2f7143d9b975867d389b87cd8f50fa8940731de2e90613ceb76a",
+      "git_blob": "fc2e2fa51d7478309946af166c5587766f1dfd80",
+      "bytes": 1504,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_eraser_grasp_active_20261028.json",
+      "sha256": "a8e168c3b0b38c7c63327193e4f3419e37003073e4386e9e8e29d1ac80d1feac",
+      "git_blob": "6b02f973538deec922c04579b11732306368f02b",
+      "bytes": 222,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_filid_postlift_20261028.json",
+      "sha256": "a72e6083c960054affb90e2eee06de59d2298db089bb8c4d685b6d48a013eff0",
+      "git_blob": "0a31317d2199ec649e4644ed3339019910d83ed4",
+      "bytes": 4320,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_full_workspace_20261030.json",
+      "sha256": "e56aa4cd52078d802f21d908ab8521b6b89e73d028f825e5dad001856eaf2e2f",
+      "git_blob": "06e6734f1c5dcd5503ccbe4cc905409e628e1305",
+      "bytes": 821,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_motion_delivery_260_160_30_v2.json",
+      "sha256": "163bdf1ff79a0c7d1f2d3c8d193e68f27b4c10d8e4243d07aa8dfa07ff251088",
+      "git_blob": "6435e515366323199d4bd0bc432dfdb3ef9e45cf",
+      "bytes": 517,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_motion_nominal_v1.json",
+      "sha256": "b3c27c1f950bd305e568cc9d5622c70bb489b41bf3817464aba95ceb4a88f44b",
+      "git_blob": "9262c11140ddc2861afc86eb7a0ca2b36a64463c",
+      "bytes": 2239,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_motion_red_demo_v1.json",
+      "sha256": "f14202f1eba48d601a37fe1ebc73abc27805552fdd66d16f91349600b5757942",
+      "git_blob": "4e09346ce0f097f5e547721dd2b4121a17fa3c33",
+      "bytes": 1261,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_red_depth_active_20261030.json",
+      "sha256": "4330b167fd5a413d751bc0f346665568b4506523695def3b4c8035df481a05e4",
+      "git_blob": "78b5a569ddb62f586242ba05df223a30fccd0010",
+      "bytes": 204,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_red_grasp_correction_20261028.json",
+      "sha256": "b40b25194310e2dd773ac4005c732d3694da4c7bcf4d83544c02bba1e2666962",
+      "git_blob": "0934928f2802a11fb98422008ca8e6ca139eccce",
+      "bytes": 3347,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_red_grasp_depth_20261030_v1.json",
+      "sha256": "00133663e5adba39e46539c0817e8bdd8d504ebbdc7a96a63c5ad15708e162d7",
+      "git_blob": "5b2005ddff5b9992ac2105f2d9ebf879666c2f18",
+      "bytes": 850,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_red_grasp_depth_20261030_v2.json",
+      "sha256": "a3750359a473dc792c05e74f74165d6551398261e178e48854689ebfbc59549a",
+      "git_blob": "92a01074be5267fc6b24aae17b5260289f076fd4",
+      "bytes": 854,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_red_grasp_depth_20261030_v3.json",
+      "sha256": "df8ac33a595517e22a937c87748456ff395471e9da5c874f31ab67c52d2937ff",
+      "git_blob": "4bc4cb8325c942b7f0685deeec42a22661312215",
+      "bytes": 1649,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_restock_20261029.json",
+      "sha256": "270fcc9d330a79d079a891330a34030403ee1be994c55b0490e5fdb9606c8691",
+      "git_blob": "95004be0ecc1f6d30e28a02ea019f830676cb162",
+      "bytes": 1559,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_six_objects_v1.json",
+      "sha256": "038561eb1c4847ef444a6ae91f5de1a86c7d4f800560e71fce1e9f826416a031",
+      "git_blob": "539e1cd47bea564ac02aece8592db4f51e4bdf78",
+      "bytes": 2231,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_transit_speed_20261030_v1.json",
+      "sha256": "5fc06837007fc12cfa5eaa0174ad28dbcbb0c58c9c6e6e662650651ecb1d7331",
+      "git_blob": "0c97843fac23bd22de4a5fbf192060e34f4bb3cd",
+      "bytes": 1136,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/mode_b_visual_current_20261029.json",
+      "sha256": "6a2cbb52a0861e052e7c3dea7d7142587b02bb0c30b39942b7a2adfda921deed",
+      "git_blob": "27193e22b5addac6748a02157a5dca15d44ddf5b",
+      "bytes": 91492,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/neural_top_development.json",
+      "sha256": "cd2462e15ed27df27b9b16a6a73bdd65794c927570385d668fef060e923e0678",
+      "git_blob": "5f320b1aeae21a30f0ede279c84dbe38fa434c0f",
+      "bytes": 1103,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/path_draft_20261025_v01.json",
+      "sha256": "d4908a7723a09813cd24fd9d4d4e22f2324a03129d1bf974250349e49f69f2ef",
+      "git_blob": "cdfc1719fca280fe53fe71fbc244c3919d37dba4",
+      "bytes": 10262,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/path_plan_20261025_v062.json",
+      "sha256": "00d8a99c0151384797bfcaa619c026ff4311639877b3be4d3c2be6a0b59e6689",
+      "git_blob": "fa3e8486cf871a322e837587199d610dbfd61f24",
+      "bytes": 10827,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/phase2_local_simulation.json",
+      "sha256": "114a50fc6a0aadb3113e94a700b8745faafd273d9b98d4ad16d8407716b9573c",
+      "git_blob": "c00a5d1d7a62c4c80fe4513c65b84bcee3d999ef",
+      "bytes": 632,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/phase3b5_rgb_task_preview.json",
+      "sha256": "d9e08036342d1736f4a0fbe310e04fd8cfa74e60a90e29ac25cd2a021738600c",
+      "git_blob": "8eb4ae72162bc7d6e8e64a769bc582e74eed9e2c",
+      "bytes": 581,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/phase3c_contact20_preview.json",
+      "sha256": "c5e973f032de4954f89159d77633d8c471b29bf20b7a3472ab625d23af758926",
+      "git_blob": "44c8008e496aa9b04f85bb0019c38111ca822321",
+      "bytes": 1389,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/rgb_workspace_20261020.json",
+      "sha256": "4485044c9738db6e29ff3446559ce1d269353aea09d3ed1a2f6c71483f42e098",
+      "git_blob": "eb95a737f4654cd0967d731614b84f09399928fc",
+      "bytes": 1199,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/rgb_workspace_20261020_board_20x14.json",
+      "sha256": "c6d911c522cf75e8adbb6afd7e3a84816d17e75e8ffce881bf7a48fb26a7ba21",
+      "git_blob": "ba4b194f48627b337bf0da77f290e0cfa9465c32",
+      "bytes": 1550,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/roarm_reference_geometry.json",
+      "sha256": "51bdbd9d4533e656c6e2a529d81bf69b694ec988170d3eb8a3812b600851eeae",
+      "git_blob": "d1eff5ecad56c6c420db1fb4d1eb0618d0c9c053",
+      "bytes": 1424,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/config/ai_pc/robot_home_current.json",
+      "sha256": "8840ed92bb15cd6c1379fe33e279eb27513f300b7c80b866ff86ea3b85baae40",
+      "git_blob": "3a95e7371461db254552074ce44eaebb6abfcb4c",
+      "bytes": 2687,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/docs/mode_ab/hardware_setup.md",
+      "sha256": "7018afd21851961f079966f82b2996e18c22563ce1c3dd4e42776e61198e0d18",
+      "git_blob": "53a7374cf9fe0cf4a3be2800738aea8bdfc39346",
+      "bytes": 3569,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/docs/mode_ab/interface.md",
+      "sha256": "5ddba8149f39ae10b85378deb8e141f4f50e054ef8cd6d9abc2159f2c30ff07a",
+      "git_blob": "47132e2687bc880886b01ea30c02601d18b6e1a6",
+      "bytes": 5475,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/docs/mode_ab/native_routes_p4.md",
+      "sha256": "08e020b37ee0fa7451bd473c83a181d115ee2dd9271c52706559518531fe3a2e",
+      "git_blob": "9f9c7deb43bee7d72c42a793f5448f87f709fed5",
+      "bytes": 8176,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/docs/mode_ab/readme_cn.md",
+      "sha256": "125c279e785ba2f24bdd0ae15f7eaf17c597057a69ea32dc85e3d0eb0e378eb5",
+      "git_blob": "0e3dec527327ad3c4ba304e38ee54ec2be31757b",
+      "bytes": 20303,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/docs/phase3c/mode_b_optimized_handoff_20261030/objects/eraser/PLAN.json",
+      "bytes": 441359,
+      "sha256": "c0c35386a74b5601f805e0a4bb93430e7a97f22332fc5fe0032b3fd8c0ec83d2",
+      "origin": "DEVELOPMENT_NUMERIC_PLAN_REFERENCE_SUPPLEMENT",
+      "original_relative_path": "docs/phase3c/mode_b_optimized_handoff_20261030/objects/eraser/PLAN.json"
+    },
+    {
+      "path": "project/docs/phase3c/mode_b_optimized_handoff_20261030/objects/red_cube/PLAN.json",
+      "bytes": 616297,
+      "sha256": "c792f634b467310403bf5674603e692ccece67e824ed3de398729851a6f86c26",
+      "origin": "DEVELOPMENT_NUMERIC_PLAN_REFERENCE_SUPPLEMENT",
+      "original_relative_path": "docs/phase3c/mode_b_optimized_handoff_20261030/objects/red_cube/PLAN.json"
+    },
+    {
+      "path": "project/docs/phase3c/mode_b_optimized_handoff_20261030/objects/small_canister/PLAN.json",
+      "bytes": 630936,
+      "sha256": "90f84f7b34cc351e8bff18e0197560b46207904cf389a1bfae8a4c02d5c02ff1",
+      "origin": "DEVELOPMENT_NUMERIC_PLAN_REFERENCE_SUPPLEMENT",
+      "original_relative_path": "docs/phase3c/mode_b_optimized_handoff_20261030/objects/small_canister/PLAN.json"
+    },
+    {
+      "path": "project/docs/phase3c/mode_b_teammate_handoff_20261028/objects/red_cube/evidence/PLAN.json",
+      "bytes": 1429150,
+      "sha256": "e0bcc268d5b7d6663d0146002e5c96d4e991b93ddaa1091ce033ad838c98fae4",
+      "origin": "DEVELOPMENT_NUMERIC_PLAN_REFERENCE_SUPPLEMENT",
+      "original_relative_path": "docs/phase3c/mode_b_teammate_handoff_20261028/objects/red_cube/evidence/PLAN.json"
+    },
+    {
+      "path": "project/mode_ab_manifest.json",
+      "sha256": "8981614372d2fce09e0c50bfb5ac8982b4a3ee105edb62267f6435fe54952087",
+      "git_blob": "210c287009aa27b5d398997d53341ff05a0c5a82",
+      "bytes": 770575,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/model_package/mode_b/detector_background_v2/model.json",
+      "sha256": "cf97be7f3611da688bd5287ef59a796d19d782b85a25c725186937cd00027fe9",
+      "git_blob": "8ffb04d3aaa5246289b52fe851d91acd78d5ed77",
+      "bytes": 3102,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/model_package/mode_b/surface_eraser_repair_v1/model.json",
+      "sha256": "d71afc46ea197b0fdab77142c3a99d9acf4b73ca885f24dc949a9af13f957a8b",
+      "git_blob": "6b109cc8699910eedfb10b0eaad250737206877a",
+      "bytes": 1573,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/alignment.py",
+      "sha256": "c6c7d10d3b067f40267d5187173fb10013150ee352599489766a525c0321fec1",
+      "git_blob": "d2b908007ea2e81d6fc74180c3f1b9b31cf8d527",
+      "bytes": 2275,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/board_s6_synthetic_client.py",
+      "sha256": "498e306fbb822aed9cd50962cee6803e73f43028c4da2a9ac9529652e6bb35d3",
+      "git_blob": "30886858c661558e8c7a145a7b6f5cc8dc09e524",
+      "bytes": 3619,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/calibration.py",
+      "sha256": "1f8d76b75a230232088b69757f23ca97b2dfdb29310921f58c1f3750b35b0ecc",
+      "git_blob": "d40f403547619e93a5f71ff2412da38f14b61a96",
+      "bytes": 4103,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/config/calibration_synthetic.json",
+      "sha256": "c4a7cc2c87378f994ca4488701dae4692201b2e01e479411eff3b6a50b6ff443",
+      "git_blob": "ccd011e48fa12f9f122bf82888b2ed8240ab2b83",
+      "bytes": 1015,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/config/scene_registered_objects_synthetic.json",
+      "sha256": "7327bd0a53b1a720bd423dcd5cede7a3e7b733145c50e16d410447b398dc3c99",
+      "git_blob": "20403143cb42af1001c961bd9226e4575f3d5380",
+      "bytes": 1285,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/detector.py",
+      "sha256": "dd8c0855b922b65dddc674db905fd233d34d2a8145dac9f757cd1788f263782e",
+      "git_blob": "3990b5e7bfbbca75ae54bb8bec8861da6c1bed78",
+      "bytes": 4115,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/grasp.py",
+      "sha256": "9ec536c701acb01550388766dc812fed00618172ff9ddfb6c908368bf951650f",
+      "git_blob": "39282799f8d45bd9ab64e05c814ee27de65e8981",
+      "bytes": 2392,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/ik_interface.py",
+      "sha256": "b6c51451dfc3a7cbad4918ca26edbfed7c240db8b1018d81a79401c1e280191a",
+      "git_blob": "ffc475afd2941ce36ca7878b0be93e8663454e27",
+      "bytes": 1498,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/inference_backend.py",
+      "sha256": "f8072ef52a7e5dbbd55b71e55aab748d48b72e301ba75775e929be5694622103",
+      "git_blob": "05c6922c7ad3bfc48d91c9f6f14a4bdb25c222bb",
+      "bytes": 2677,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode1_red_fpga_contract.py",
+      "sha256": "c58278372e2918a07423d7997cca6376917eeb85e45fb06ae7442797038bcfe7",
+      "git_blob": "1f19bf65ae0361f0a0abfce834f9fad0aa571d9c",
+      "bytes": 20234,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/__init__.py",
+      "sha256": "12f000667c92ceb17645691d7eb8f41b1eb566634a748714349d0f708b4b9193",
+      "git_blob": "bb004315c3a03f608136ac885efd83194e453ee8",
+      "bytes": 77,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/board.py",
+      "sha256": "a41765ce2792a557923faae629fdfa105068a497d597a6d1b13c735d882ea266",
+      "git_blob": "721a730833615043a2f7f3ea4ba24521a907155f",
+      "bytes": 13588,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/camera.py",
+      "sha256": "daf0d08af679d0320d5260a07da4e63eca62881aa5fea072799cbe274fc87239",
+      "git_blob": "69495885ef164363afe99c0bd69fc6762304e7c2",
+      "bytes": 7716,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/control.py",
+      "sha256": "145996f69b8bb048c19f92b22a7254fb5b2da862e4bdc2604498ff1dff238a89",
+      "git_blob": "dd8fc8b6c750b3f307e9be4554698dbf31552752",
+      "bytes": 13040,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/diagnostics.py",
+      "sha256": "519b95cdeeb4d028ef28eb7b065cbafdc639e9c8b3a2d443dddf4eda94576812",
+      "git_blob": "424f5741105dc84210ad00b4e7918106ee619b9d",
+      "bytes": 5700,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/family.py",
+      "sha256": "8dedbb55679dcd8fe089efeb6d534b5aa1529d9cf10544562d84c7549941df0f",
+      "git_blob": "c0b7ff86ae98c16ea7c6a708a49a48aa31c2b6c1",
+      "bytes": 7642,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/geometry.py",
+      "sha256": "83e31494324d42ade426466c6990e5d50287365fd84f0f34c2a623a4f07f4679",
+      "git_blob": "bfa5d79a9c1860039e3fecd30bd103d58a1a9025",
+      "bytes": 5471,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/gpu.py",
+      "sha256": "f1c02a333b56ea29b35c2efb36691442486d624436eb2991c40bae52ec918ffa",
+      "git_blob": "e09a3c3876e53c04ee4634678b2edb947e286e49",
+      "bytes": 4940,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/http.py",
+      "sha256": "e9a5e9f56300991d8c77385cf0b3884ad513e2ea1c56870d1e252d48d8a10ab6",
+      "git_blob": "f9812e0e616273b3e52cc49e15bb5beb422959e2",
+      "bytes": 7160,
+      "origin": "SEALED_P4_1_WITH_SOURCE_EDITION_PATCH",
+      "baseline_sha256": "ecbd0d3cbf7e8898c896d8032d9f6a97ccb30f70383f5902b233700a81e9e54a",
+      "patch_reason": "Bounded rejected POST body drain before 403; avoid Windows TCP reset. No device or authentication bypass."
+    },
+    {
+      "path": "project/pc/mode_ab/motion.py",
+      "sha256": "3998de0fd6aeb27c7f194b8aa3d6d40fc0970912625ea1263104df24e995e1bc",
+      "git_blob": "b52c527155a605eda99d0691973d7642f7431ea5",
+      "bytes": 28208,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/native/rgbcameraprofile.cs",
+      "sha256": "45869269ea7967598ed3ebf6a704f3eb9877aef2380782bb767c2907e827f0de",
+      "git_blob": "cdbe1976450fbea7bf3c9f2fb15021ac3e6012a5",
+      "bytes": 10966,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/native_backend.py",
+      "sha256": "268166d4290df2ea74c4211df433c053f749356c5bfa42c26f79476022df9576",
+      "git_blob": "7666bd182df7bd3300185d09bea8aed8e6e2c21b",
+      "bytes": 1161,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/native_family.py",
+      "sha256": "9886e22622f0d326d46f4ad5ad60333b99f1b57a36d5ed19d85354310ae25f25",
+      "git_blob": "ea9215b0be1f27945c09a2bdd73bdce3b22a8a38",
+      "bytes": 5728,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/native_routes.py",
+      "sha256": "2dbcbea7f3f35e87ad09beea4cccef06b0c7287fa330d0d40ee1d44835e4f48a",
+      "git_blob": "648125da167d914cb3db5de05261417a4bbeac05",
+      "bytes": 12764,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/native_upload.py",
+      "sha256": "246c08a5126c054ac63256be6e96ffd80516cc230411e24825e823aa25930f6b",
+      "git_blob": "71d7a1a3bc2e696f707639b9ae5e52d34d103fdb",
+      "bytes": 5339,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/npu_detector.py",
+      "sha256": "ed248b37f2adc71db359222df905dae244ce9ff42ece6b2a680eebaf9cf6a5b1",
+      "git_blob": "66d2e977d8d44c1199ddd196445f434d226f295d",
+      "bytes": 4377,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/registers.py",
+      "sha256": "e696b557a767ca37fe691e89cd348f21edc769956ae9d3b5e8c0b220404a52d3",
+      "git_blob": "12ce88e2240cae5b09ff96a82fb81e2c9c97b8aa",
+      "bytes": 3565,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/runtime.py",
+      "sha256": "16f18c8c5c6f2f87c1ca4b8affba392a8ac60b54cfa3ab72842dfe62e4e1e3f2",
+      "git_blob": "c5bf1481aa584630e2015fd215c0613e71a58fb2",
+      "bytes": 20739,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/shared_red.py",
+      "sha256": "08b9d3e22c9fcb882081fcccf798d70e4255aafee5c2d3e10aa3c2dab602f695",
+      "git_blob": "27c7017500ee0038cce15d400f3e49e05cc1cee7",
+      "bytes": 2910,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/uploads.py",
+      "sha256": "e612cb3e9d4122c9cdb990c7c189b6d5102a55c12a222cea175c094fed1423de",
+      "git_blob": "9b3876ae1052b76819ba601b945c3cbcdf17d95a",
+      "bytes": 2584,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/vision_workspace.py",
+      "sha256": "830ff85cb5ebf5c1ebb254b331afd8ce12db5a9bc9b8cabee260c88c3404404f",
+      "git_blob": "ccc7b233df72fe8e4ac1c339a86214b56553de48",
+      "bytes": 3987,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/winml.py",
+      "sha256": "3a5073d4dd5a9fb7c4d91503cd22a0ffc7a941fee7f513437758272af8581cf5",
+      "git_blob": "ce023010393c234d672b54ccb3a3cc8838fcfea4",
+      "bytes": 2815,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_ab/workspace.py",
+      "sha256": "65adf284afea8c52a74811834c634256495117b00918da8dd22f7c1b2ef3796d",
+      "git_blob": "c94cf38e89fbeb4502bb37c09118e54d993bd890",
+      "bytes": 1523,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/__init__.py",
+      "sha256": "69afbe7a5dc2ef3f75e5c91c63a1040acf45c9744272a3bbfe5a9de7b9cf22cd",
+      "git_blob": "5680c1defb4b3115e8914fb503d2903819e94f91",
+      "bytes": 85,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/data_audit.py",
+      "sha256": "831479271bc4f33a2d6223bf4e0bf2e457479312ce95bf8407db1eaabe5efd91",
+      "bytes": 4125,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "pc/mode_b/data_audit.py"
+    },
+    {
+      "path": "project/pc/mode_b/deployment.py",
+      "sha256": "069b676c6e5c1e8a8daadca3117dda1f5dcae9a5419ceb4bc6c758b5d3771ca1",
+      "git_blob": "8bc8e89efd60b5aec88c533b0e25427b9ea37902",
+      "bytes": 16652,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/geometry.py",
+      "sha256": "9a614ff05e4a433151f4378449db9824a5ada47146120026a192b4ca192843ce",
+      "git_blob": "6aa8a9f5e9111bb193733d455ee4884e6db18010",
+      "bytes": 11397,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/__init__.py",
+      "sha256": "3b65631af606a3b0e56d3623581a9f5558fb1e683b61e2d2ac8814d3703924f4",
+      "git_blob": "9a18bfaa41ec0cb1334bfb12c5a74577a34a11a6",
+      "bytes": 81,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/collision.py",
+      "sha256": "a7030c8cf7fa009567b888dd11948529ba8cb535af82f0eb1bde2daee4d6c858",
+      "git_blob": "249021c9465d95b9583b349ba7bf7a77e70fff60",
+      "bytes": 5782,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/export.py",
+      "sha256": "524d2f42f5992a4eaedff24be8a6b7cf1e85d28e8001c26f8b45a16865494407",
+      "git_blob": "6a76951fd122c7bc2b77bd9d8047c12fa2ab34e4",
+      "bytes": 5371,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/fpga_review.py",
+      "sha256": "74644077292369071c8b7cbed9e67254041fa3e34d77f104dba6752de1774cee",
+      "git_blob": "04cec68580f791ddbe3e9301ed80023323efa681",
+      "bytes": 23586,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/home_profile.py",
+      "sha256": "9096e2b635d71bf71c5165cf7544b4214f1d88142f6febab0022960587c3cee3",
+      "git_blob": "c54e60e9b80c07601a5e6d25dbb54ace69f68b71",
+      "bytes": 1073,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/kinematics.py",
+      "sha256": "5c50f5efccec270aeb1aec242acd77ddf5831b3b44dec56f6330070c69f9411d",
+      "git_blob": "6710b22b3b12c23963c6d819748456c771846784",
+      "bytes": 9091,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/pc_trial.py",
+      "sha256": "a5b867af980d5645d146690b8e3a21d09f568c41a7a2ef8554aba9612fc59347",
+      "git_blob": "3cafc18307c065f779cf4b0465321e7607eb1cbf",
+      "bytes": 8995,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/perception_input.py",
+      "sha256": "e510fbd1a93b479312d04d18ec8be90d06a34804bd2614d5054b78ea16d336e0",
+      "git_blob": "0077af3f1195388577d2f6c2c4c2f924f3e2715a",
+      "bytes": 3080,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/planner.py",
+      "sha256": "cab2a5526d6418c639f37c4e03c9089531a3ecb60d726358af31b7bbc6279943",
+      "git_blob": "1a5e6bb6d40b3aff523c2cc1ab026ba90f89faf4",
+      "bytes": 24499,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/state_machine.py",
+      "sha256": "51d37690c65d4b08f5ee5b0e1c4d02193de83f5a4ae96869cb9561471a01412a",
+      "git_blob": "387bed12d0076662c24a23c1f494ff7f1fe1ab79",
+      "bytes": 5406,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/motion/trajectory.py",
+      "sha256": "dcbd8b900a49249ce0770c74e5c3ddb533636f1ea481e2184b95f5ea86410248",
+      "git_blob": "a13cd0aaddaa25d66a7aca5356af5609e3cf0b3e",
+      "bytes": 2936,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/perception.py",
+      "sha256": "1b1d02a27800568f53e6e332077710c2d9cc30bef09e020da6ac2e0a34259553",
+      "git_blob": "af1b44278249c015a450ee0badd80a498c71d6cd",
+      "bytes": 5370,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/postlift_workflow.py",
+      "sha256": "5d676429c599370209de65b888e0e9bd062a77a8c539f1262d7a2eca753fa627",
+      "git_blob": "1ee62893918d14ab8e1ef891babbb65a37e0a3e9",
+      "bytes": 3917,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/profile.py",
+      "sha256": "36d77913ba860f63f1a90d2c39406686ee16232afedae8a6ac9b1ffeba0f492f",
+      "git_blob": "4caaa90227b2f9920e653d97b1901694fbfe0b8d",
+      "bytes": 2816,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/restock_workflow.py",
+      "sha256": "4dda8b2439bb3b9dbeec6aa7d5b3c4aee8adbc0908185d2f32ae08e8c2e52a81",
+      "git_blob": "efc3b4e4d2f5515d5c6a5e51a8de8e38e011a6cb",
+      "bytes": 7297,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/restockserialsession.cs",
+      "sha256": "436d0e79d3c61a2cd600b21a585f5c7b9f5e60f893486dbb8adb707bdd9cc9fc",
+      "git_blob": "7a7b1e05396f77e34292e78ba429582a01466c05",
+      "bytes": 15685,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/surface_augmentation.py",
+      "sha256": "3aa081fcd67f045b3dc9af49a0fdf950d04200add9c5b8ad9784e479d3ca225e",
+      "bytes": 2597,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "pc/mode_b/surface_augmentation.py"
+    },
+    {
+      "path": "project/pc/mode_b/surface_ensemble.py",
+      "sha256": "13a81241ba13551d4530c826b3d185d4cb4c08903ee470720988ba46bbd7de34",
+      "git_blob": "2d9f5bc3e9c11b603f1c88673f5e31863e616470",
+      "bytes": 3045,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/mode_b/tiled_detector.py",
+      "sha256": "151ad63c2be314eae58eae14cf30c1967c1d60f6e77be827390b84c69d461b7f",
+      "git_blob": "1f68e000139f75a17c51ec10b48211299ea2f240",
+      "bytes": 4114,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/__init__.py",
+      "sha256": "6bf6321b63dfb3ad0f5e01b7418e7f597295e32c43a133126e4fa36e1382b9e1",
+      "git_blob": "13e445186ab5a894a982e9215db52d93b710ba1d",
+      "bytes": 81,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/chroma_recovery.py",
+      "sha256": "c8ea39c86e1488920502d4c2270d414754afad97b6b3cda811478e6e2b262864",
+      "git_blob": "02939eaa3d7dfc6db7be4adb40b212a68619bdd3",
+      "bytes": 5123,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/collection.py",
+      "sha256": "7d4fa17009decfbd381b7b52e3972e917ef5b9bab114e3e669feaf70b5941e92",
+      "git_blob": "43ab6994b3aa2f470f9d48a9a4ab9c63fdc87b0a",
+      "bytes": 5414,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/comparison.py",
+      "sha256": "b653e02c9dca0a1249ce108e25056e165dc328c1c75ebb26efdfdb32c3f42f5d",
+      "git_blob": "b9170fd28e9fce04a0a42beb86302affc5fd5ad1",
+      "bytes": 2093,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/dataset.py",
+      "sha256": "2e721031db2615b4ddc0d6e08121b3082c2f26c21c8056bda15e772e343a64b7",
+      "git_blob": "476f4f0cc0d4077dae3a06d82cae687a03afd53e",
+      "bytes": 5415,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/evidence.py",
+      "sha256": "d457eb8d1620ce1b0165ed250ed21a3538080b7868ac5be6c20142d8f60e6d20",
+      "git_blob": "d2bd34d0339c7240c0b8401837acd980738b034f",
+      "bytes": 1449,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/history.py",
+      "sha256": "3466d9014c4ed8f728597bef5fd46c8e8e54f0c5a3b8ba58cb58a4bdfce6dbd1",
+      "git_blob": "e9784cb6a5bcd3b5b192cf53cd91747eef8ffb2e",
+      "bytes": 5894,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/perception.py",
+      "sha256": "a231cd50bb5aaa80607c3e871fa7e6527183ba59890571b59f5f7f993dab897f",
+      "git_blob": "e7709d71a0f681c2aecd0017befa6220770a9e6a",
+      "bytes": 13823,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/pixel_top.py",
+      "sha256": "4eefdc1afad1e8326cc29ad65994ace37b493adcb140e736a27edc2043364795",
+      "git_blob": "bfc9732dd1d5fbc7006d5d0cc72db313ca8a4a21",
+      "bytes": 1850,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/public_data.py",
+      "sha256": "60663d1e863770e52fb0af1c9c4e3202d3df7afee10636da9f12854b179e950e",
+      "git_blob": "fe8cd45677f72808643031bf6b46a499cb936c17",
+      "bytes": 3519,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/readiness.py",
+      "sha256": "c0238ef4fabc04879f9fbd402b8e2c3f5337e666b82124298f5400d480e48943",
+      "git_blob": "5aadd1c17d24717e2c23d49b58f9f11fa5de29da",
+      "bytes": 4724,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/registry.py",
+      "sha256": "11b9ecd65a911afd544ba13dc966e7ab3b103ef93a3a86c147dce4005cea25f9",
+      "git_blob": "6fc56a63e4eaaadc9e04c6d354e15f4ad1cab433",
+      "bytes": 2383,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/surface.py",
+      "sha256": "5e61a048130855689886f471536ce629c42d7b038a4dcc18e93b5dbb2b792e5c",
+      "git_blob": "58f23a6da6c28605f6cee8246f2918428396036a",
+      "bytes": 4645,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/surface_process.py",
+      "sha256": "60dab75370e494af18250f73c1fa9ca2658e99e6d024dfa608ef51c683457888",
+      "git_blob": "be55cce5de453671acbd710a110390bfa3123e80",
+      "bytes": 4039,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/surface_training.py",
+      "sha256": "e8bf2d4a8bcda932091798dd815b08679486a06e58d40a78cc038bd59318fae0",
+      "git_blob": "00ee9eb22e3870d06d312c8aeb0d45ec1e3dabd3",
+      "bytes": 3306,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/task.py",
+      "sha256": "8d1058b486bd6934fb47c85168aa85e38d1b5e46b553c7e9e5d68e0ca52810fb",
+      "git_blob": "9c0ad80deba3aaccfa859a675154182eec771c89",
+      "bytes": 2131,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/multiobject/yolo.py",
+      "sha256": "323a600a9c09ce0ec3723fa9a0214493a93034f50fa6d52b440ddfd3bdcdc3b3",
+      "git_blob": "211629fb4c883ea7b5bf36443295f7a29da508f0",
+      "bytes": 9191,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/native/rgbcameracontrols.cs",
+      "sha256": "8a1abc9c418cf23dfbdc0a9ab833b8c11dcabd9ef85257d539b6d151aa1334a8",
+      "git_blob": "b07901b5e38af3969848e993c168695564e03568",
+      "bytes": 10449,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_agent_main.py",
+      "sha256": "a5361f8b785cdba2e007d1c2c041a3210f2ab55f67d02510fe0f438462e531be",
+      "git_blob": "f9cd4be8870dca64ee3ea93ebe21dbf1cebe0b2b",
+      "bytes": 7810,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_task_pipeline.py",
+      "sha256": "0e33ed94c55152e74b8ef0b6fa475f3260fcb50f7e8f73c6830c0d3d1b705c1f",
+      "git_blob": "075f98e6f4a562c1cf6ddf297fb7115f0633ea09",
+      "bytes": 6873,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_top_annotation.py",
+      "sha256": "e149c2de522fc5b3dadca7cff0ed34cf1589aeb26699c73791f8f56b89d24472",
+      "git_blob": "7e9680ad39e353722933950d25ea286c7fd496e0",
+      "bytes": 1153,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_top_dataset.py",
+      "sha256": "1cc0ac21e3f3ebad769a1ec161a3b676b4b20d3063ae18f2805b852b1972f2de",
+      "git_blob": "a495351d309e76dd76f4385ecaea5726dc49d2f5",
+      "bytes": 2001,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_top_model.py",
+      "sha256": "a76539f63ceb5f9ad160a6d42ee0d1611c41448466be66ee32e4f607ac534088",
+      "git_blob": "b298ecb5cbd1855565f67cd5ae885636df67651f",
+      "bytes": 1284,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_top_perception.py",
+      "sha256": "a0fe8e6e791db0457cd1cd5fad8d89246e4f92de0b2f8605c199e572d8d9a0b7",
+      "git_blob": "840e54ee97966679a77605f9aed366c526f6c359",
+      "bytes": 7947,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_top_runtime.py",
+      "sha256": "c6716c8630c9dbd68a6d8c3c7476ff68f37849f69c38db5d0b55bcf2c035045f",
+      "git_blob": "f02b547995f1e8778562e2e4c0c65e3c3e44d519",
+      "bytes": 9167,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/neural_top_training.py",
+      "sha256": "5ffe8ddd0bf73f52dd49b7100184a2639207e3e4ff9bec270480a5a3fce837b8",
+      "git_blob": "27fb40492455b4ab4390552aa706b7327e49b96a",
+      "bytes": 6096,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/pc_agent_main.py",
+      "sha256": "e73bd83b7e0aa691cc96d583f258ea40c67b3cb8162f51d5aa616859bf229df0",
+      "git_blob": "3d5ca2948de6230601e90d755d717c1f637f0cb2",
+      "bytes": 3648,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/pc_link_client.py",
+      "sha256": "270aa02b0322e96fddceee80c4149e1ad5fa4111534f109fbf0a168ba2f74c89",
+      "git_blob": "089a4d1caeebc24b02643d6e6c0e6f7b9f26062b",
+      "bytes": 4407,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/pc_task_agent.py",
+      "sha256": "28e739c113b2beb86a0694190fc364e54325645145e45c992dd84d42b3a9edaf",
+      "git_blob": "1003d768a536f9506fb461c982eea37127350656",
+      "bytes": 8686,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/phase3_event_log.py",
+      "sha256": "ba254eb20de68284011c35a8bf94021d345e9710eb19f56a48a73cbf13445ec3",
+      "git_blob": "f8c4c26f7c26d599655bd78a71e801d1d01f79e5",
+      "bytes": 2789,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/phase3_link_protocol.py",
+      "sha256": "23de36db4b1b79ab86f58873d174890bde4fb7d846b4085d59af7acac48cb1a4",
+      "git_blob": "260c73fbec4576159f27a87288af1bf83d3465e4",
+      "bytes": 8688,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/phase3_path_contract.py",
+      "sha256": "2e49250163873663de98d02e507315b2ed33f296b864f8c5660ccb7439e638b0",
+      "git_blob": "d4214a53ea22ebfe1af328c6050de1a9d62ca612",
+      "bytes": 7544,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/pick_pipeline.py",
+      "sha256": "fff21f1e464840d2b9423e067abc4595f6074c74167fb3957d97c493bd367351",
+      "git_blob": "efe7bcf66e40f98f6dd3c12078634d2c456f9ecf",
+      "bytes": 3467,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/planner_p2p_reference.py",
+      "sha256": "bf06215fd91435484a059e42421259b543584467c9aa97f4de7c649eb8e29046",
+      "git_blob": "5aa42bcfbfd82edaea4fd606daccf01f86137aef",
+      "bytes": 16495,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/recorded_perception.py",
+      "sha256": "59191697a835364ac02cd938c2b7321e375d2be6e27545e59fa548470ffbc187",
+      "git_blob": "699904b1703eb065a159ee090bc15639262f58e6",
+      "bytes": 8630,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_auto_light.py",
+      "sha256": "b26d1cad4ccb1f31956f2f601940479ec0addd49cbcc3a16d8d3a38bceb09db0",
+      "git_blob": "cd4a84fcc88b8e02df15b517f2be6a7f1e40d4aa",
+      "bytes": 4601,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_auto_top.py",
+      "sha256": "176fe458dfb9268b8265d132a3024994579c743cc4d61ba54bafc4bdda61cb7a",
+      "git_blob": "69ce3106147a71eb99c197404b59b3681e0ef19f",
+      "bytes": 7774,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_camera_tuning.py",
+      "sha256": "38542850a0df07bd3e961bdfbbf4103fce8be378ceb16c6fedcadda23a9959f2",
+      "git_blob": "03ca7176ebc0f78679d44c6c989f3a36706dbf5e",
+      "bytes": 9494,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_color_preview.py",
+      "sha256": "87f31d937f0152d3037590a03344959d4f02f925970d1736ce2cb82295831c1f",
+      "git_blob": "785f6aa189ba926569ead4160a3c9164e2f68743",
+      "bytes": 21819,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_dshow.py",
+      "sha256": "0361c9f8e207f9d661236677148ef1b5f41e4e918ee398a80dc50315b88883f8",
+      "git_blob": "5079c5c81cad38b4d083bb02fd9bd2640941c144",
+      "bytes": 2252,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_table_geometry.py",
+      "sha256": "f3bc5fd14eca9deb492573ad008fb22238b272888b6d57257a46cef98bc4465a",
+      "git_blob": "e86cd3918d6112f5ef1b9e3157d84399fabda900",
+      "bytes": 5036,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_table_reference.py",
+      "sha256": "9fd5f48d7604032c8fae8d048344a95581560a97e97acb1f766fb3f6e35fb2da",
+      "git_blob": "7a6906a440a2149e238f35d301f3332ab2026bd4",
+      "bytes": 3930,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_task_preview.py",
+      "sha256": "3953e3ec2b433ff0099b64a4e15be01b1273554f3f7eeec10e233e419bad9cb7",
+      "git_blob": "c19364444898795ec1c0e9110a1f4c1163fcd69c",
+      "bytes": 7813,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgb_workspace_overlay.py",
+      "sha256": "0ad205ce1925d020d5c2d4525bd1da326155ec423b395d7206e5ec1405b4c925",
+      "git_blob": "3d7cbc696e1c2bba458824fa2fe183b02acc908c",
+      "bytes": 4223,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/rgbd_device.py",
+      "sha256": "e281b69c1d210a344b7e33e39e7fb530965a9245e944b311a6b946d672374ea9",
+      "git_blob": "3d8ad5e6adf30f6572b8568fcf1c55d68fa3ca4c",
+      "bytes": 5353,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/roarm_reference_kinematics.py",
+      "sha256": "267959fa06e26072722fc7b7e755022157b8bc506376d5471694ceae2d50f1b3",
+      "git_blob": "b6574834d4d261a7be07dbfff1f46055fe4c753d",
+      "bytes": 4244,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/scene_config.py",
+      "sha256": "81c32ffd54c08054419d76a10b4fabf06c89813c4153e1bccbac9561f90c69a9",
+      "git_blob": "a36abce25421c388e56fb1a274c199fbd144e7db",
+      "bytes": 2558,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/scene_pipeline.py",
+      "sha256": "4a84312c49daf8fe462ed1766bcc2d8681d4389d1aa8c225b03ba4190ef724e7",
+      "git_blob": "f8414bf7ffb46ca7c1f3a5ad6f90c0ae832548ed",
+      "bytes": 1905,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/sparse_planner.py",
+      "sha256": "bb65ddf4f4f35d2d26003658d169c255fd8049fdb6705c0bee2be8c8100ca37c",
+      "git_blob": "bc08f5f19ceb96a22a5e3d83b056138c260186f1",
+      "bytes": 4236,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/pc/synthetic_scene.py",
+      "sha256": "cc8f06f5ff7ee2965a520b46c26af648fe8489e8a586ce05e75301e1c94090fd",
+      "git_blob": "f5beef46da22e776a1976d19ed0c1e9923c0c234",
+      "bytes": 5214,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/ps/robot/arm_backend.py",
+      "sha256": "72460342ba5b8d20c3c252815f425dce02133728cbdc7130974308f40da78fcf",
+      "git_blob": "24b449a8cea893eb1cbd1c4f829079725db0639b",
+      "bytes": 20276,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/arm_backend_axi_driver.py",
+      "sha256": "c0ddf8cde3ed8f475b7fbe9364e9c4e319f82ac00afe39f0ffbbc443c6ab41e8",
+      "git_blob": "12e1ca634eb8ac4a1a0570e4e66a7d7feca90d57",
+      "bytes": 12820,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/arm_feedback.py",
+      "sha256": "bbf1c2c68f979570a54cf270fd8e3cfd69dd4e34da5e02869e11cfab12b0c59c",
+      "git_blob": "b561e46b7d835fa3fd2ef6b106aa1a894141c44a",
+      "bytes": 8645,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/arm_fixed_point.py",
+      "sha256": "965a4fcec48f203c6e1a91eaa0b625d54d159aaeb07eb5c7b442b82e2ccce0e0",
+      "git_blob": "2b5b471a769a2db0b0acd6a1bd83369a68c83833",
+      "bytes": 7218,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/arm_frame_template.py",
+      "sha256": "488c8e1e9276392b5329f787772af4ea29ea431966e6ab3b3f9ad21728a794a3",
+      "git_blob": "2ec60cbf142525f202925b5c4b93f7c2ae16bafa",
+      "bytes": 12503,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/arm_profile.py",
+      "sha256": "5aff05360a2ac0becdeb002cb0975e141da084a3bc0367dac2a86ef1da44b24e",
+      "git_blob": "01248da2e9f305f0adaddd852a08c0af15453450",
+      "bytes": 27956,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/planner_p2p_reference.py",
+      "sha256": "f6f306598b49ddf86035d05d8611fa78270c671a2f6f51023b4db4a241a98556",
+      "git_blob": "4ad3270361670bb6daec711d655ba922274dea77",
+      "bytes": 16918,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/roarm_binary_bridge_reference.py",
+      "sha256": "1a4541d7978b8265ab01e63b2e1bf6c6acd540a0cd0d29d5134b7cab8c052c40",
+      "git_blob": "e9f341c42f4c455820f7edadb78f3c9fbfbbb577",
+      "bytes": 4714,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/roarm_json_reference.py",
+      "sha256": "664e5b5077c58a3fb2761c86adf951603a99ccb47f87fb60c2aac20f697e83a4",
+      "git_blob": "7e13be0a241412bc4504dfee7b588ad82f8228b0",
+      "bytes": 25480,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/ps/robot/so101_feetech_reference.py",
+      "sha256": "16c4a64263c733f80d0af58b1ca19b8ac3ad65e1fb5813f1f2e886dcf4937a5c",
+      "git_blob": "2a35e29b1db562e3da45d0e6fbd75cb95e497db9",
+      "bytes": 18219,
+      "origin": "SEALED_P4_1_HOST_SOURCE_DEPENDENCY"
+    },
+    {
+      "path": "project/requirements-mode-ab-rocm-constraints.txt",
+      "sha256": "455a42fc359f80134cc344f916372a173880b90b5c461666dfc355879ab0a2ef",
+      "git_blob": "d3e22653c46af7c38b849c08d716dec9f36d30c8",
+      "bytes": 56,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/requirements-mode-b-data.txt",
+      "sha256": "a44a32a175b1c127e504a868535babf9a060ecc47d61a5cb91f57cc7996de7e4",
+      "bytes": 114,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "requirements-mode-b-data.txt"
+    },
+    {
+      "path": "project/requirements-multiobject-cpu.txt",
+      "sha256": "065a852d522b81a1ba9b572dafe23b84a9f7e0ca62525460c435fc6dc66e9a0f",
+      "bytes": 298,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "requirements-multiobject-cpu.txt"
+    },
+    {
+      "path": "project/requirements_mode_ab.txt",
+      "sha256": "ed19382f54c882809d37666a328def8cd163fa03b56b7634a47ce824baca60c3",
+      "git_blob": "66ddfa8466651805165cd2784cbfed517c7c7b04",
+      "bytes": 124,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/requirements_mode_ab_lock.txt",
+      "sha256": "7b2b3deef9e1d7df988fdcebbfd8ddfbb4de43887990114cbaf9f16f11a4e326",
+      "git_blob": "bc73e5e1a0783b0e5be5561300519547d74a4ed5",
+      "bytes": 697,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/apply_mode_b_full_workspace.py",
+      "sha256": "cafaaf4a90f3bd510f80bcab0f5fefbb6ad7097070891680d0294c09b88835cd",
+      "git_blob": "b4b4c58f62441cbd492dc070a660748a34295662",
+      "bytes": 5542,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/build_mode_b_background_dataset.py",
+      "sha256": "f3249a1e1ea115f0cca6235429fb7031b032fc1a4cf56f92f673d01d478528c8",
+      "bytes": 5065,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/build_mode_b_background_dataset.py"
+    },
+    {
+      "path": "project/scripts/build_mode_b_bottle_dataset.py",
+      "sha256": "fe235819640fcecf512fb9f5641b10e1d8c8af6621926d6c2ed0194f1c4ebbce",
+      "bytes": 5858,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/build_mode_b_bottle_dataset.py"
+    },
+    {
+      "path": "project/scripts/build_mode_b_field_dataset.py",
+      "sha256": "8fe037c138270d86667b113efb235b0cfe5bb9f50ca2de39f5e3a3e560e13015",
+      "bytes": 6943,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/build_mode_b_field_dataset.py"
+    },
+    {
+      "path": "project/scripts/build_mode_b_public_dataset.py",
+      "sha256": "6a2af0c70be7c8907314176f10f6e13e39cda3e689686dc40497087c1e34c938",
+      "bytes": 9395,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/build_mode_b_public_dataset.py"
+    },
+    {
+      "path": "project/scripts/check_mode_a_follow_package.py",
+      "sha256": "fb852b68186d98df410dd720b5bdde696465326b8579b8280ae0428d2356f94a",
+      "git_blob": "12eb8479fdaa8d7869d9a1b0bc0948fb979f6230",
+      "bytes": 2717,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/check_mode_a_restock_package.py",
+      "sha256": "5d4449dde569733776a2c9656eeddc5e10aba876c2f6323274a985a11da26ba2",
+      "git_blob": "3fea58945057903ad3f441209091ffc54db7979f",
+      "bytes": 5069,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/check_mode_ab_gpu.py",
+      "sha256": "91e6b574d74f4aa47d3af2ff8d9e4e47b3b66fcbda84577294b8f0bf042ccc5b",
+      "git_blob": "9976fd0a4d86f310dac10a1fd08d24ab909f1851",
+      "bytes": 5004,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/check_mode_ab_p4.py",
+      "sha256": "ccae5cb9df3d94d54fd071046372e629400af5f20e6710513630ad705ab8fb97",
+      "git_blob": "86d94fef87d289569771d8cd9ae5ee0a91faa8a4",
+      "bytes": 6278,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/check_mode_ab_package.py",
+      "sha256": "0bb4b200d6457e3de04da632cc066f90f1d25ed0f105dba35ea3c5789e5c7e83",
+      "git_blob": "c9f4234cd410a58000f28e630b12d77c0bcce644",
+      "bytes": 6794,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/check_mode_b_deployment.py",
+      "sha256": "f0f9e66260b6dc162d838a97da66667120faf2154da8b2f9a96cc8969b92b060",
+      "git_blob": "a115c4063098d7a71d16317dbc68068fa243a52e",
+      "bytes": 2243,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/collect_mode_b_serial_pose.ps1",
+      "sha256": "48c55add2e07ada1a497a2ca46f68ac06a526777a7e474c6bb5587f74a64b1bc",
+      "git_blob": "aafa519f8cd2dc6d36e5108d73e59feb1b7814b1",
+      "bytes": 3932,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/export_mode_b.py",
+      "sha256": "515729e97d0344029d05586ba2e162cb91fb6c03198141904816d2a1758012c2",
+      "bytes": 2676,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/export_mode_b.py"
+    },
+    {
+      "path": "project/scripts/export_multiobject.py",
+      "sha256": "7c386615092cc0ca34f614cd8fba9f8f541733958f882321151b43f9c4c59c7b",
+      "bytes": 2755,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/export_multiobject.py"
+    },
+    {
+      "path": "project/scripts/finalize_mode_ab_gripper_waits.py",
+      "sha256": "660da3e21fc9e5b65e459b8d33102ce4d768c486a4259dd878cbd54f07802695",
+      "git_blob": "2cff16ebfe13054d4c67a13ce0d88b82977db1f9",
+      "bytes": 3418,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/mode_a_board_bridge.tcl",
+      "sha256": "0fac7ab70586cb724569f96821f11517a260c6242f3ed91986c52737d4d59209",
+      "git_blob": "1ab76788e77a507d5310c812cf1837c55880a12a",
+      "bytes": 18073,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/mode_a_board_config.py",
+      "sha256": "bab17d16a7fab536bdce99bcaec26ace60f8e8e8bb829cbb306bacc3b93ebc57",
+      "git_blob": "b066f360b5fac8575f2b99f5d5cd8036612fa9dd",
+      "bytes": 3831,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_board_profile.py",
+      "sha256": "b552486d6f84aab4e7d6ae0b8115b462ea2d0a8a17391b1ef1ea10c05b1ab16a",
+      "git_blob": "fed7a1048f09441d60d0ff675fa8d31f537f65b7",
+      "bytes": 1820,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_cancel_shift_profile.py",
+      "sha256": "48dea26e97bc853f795d78f364952ebafd6710aec22cb2c9a1af0cf37487695f",
+      "git_blob": "518ae29eefe0c26f34a4a794741dbc61edab234a",
+      "bytes": 379,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_follow_backend.py",
+      "sha256": "8737e482b9c85fad790d1fd08ad1cd7549e580aead2e67e2d69c81ae49cf77fc",
+      "git_blob": "77b66a0b818c30c5bdf767885bf0b52ea7daa249",
+      "bytes": 4230,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_follow_config.py",
+      "sha256": "07179eece8a8617928ac840909c2f421db82d3dc4dd2a7ad98f6cb4f71cec293",
+      "git_blob": "a72886701dbf4e424a489ae528f18371490990fd",
+      "bytes": 2338,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_follow_profile.py",
+      "sha256": "cc6e22cff6e3dca1a8bfd8e3844fc8f321be0aeb68172c7815ccf6a34f22f19d",
+      "git_blob": "90215b7179a9d98a317318261e73da2b8f763739",
+      "bytes": 2638,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_four_profile.py",
+      "sha256": "a9d4d1ea58d1c676c17405f35ee5f59fcf7f0d5985606aed5375fce751ae045f",
+      "git_blob": "cafa8175bbe006bd6778aa45479f4c417f2dcc36",
+      "bytes": 704,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_handover_profile.py",
+      "sha256": "e43a60322cd05ea768b1b021e4971ba37c74f5381bf2ddfdd6876903c002b67c",
+      "git_blob": "78e88f5016abeb700f2a1177e0bee7193f6a1bd3",
+      "bytes": 2222,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_hdmi_profile.py",
+      "sha256": "7b157cf43b6e22369b719f70e05b3c61d8c0f05276463013f12dd26070d5d31f",
+      "git_blob": "4bd9a9f2407c396d086f6f028d4c59a4e0df2c8d",
+      "bytes": 328,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_palmfix_profile.py",
+      "sha256": "7fb541a8cb7ab3d31b5afa1f81cff9906c2f0772fa599a9e2f4daf3a147e029c",
+      "git_blob": "0645effa6a434a5faf2b03982c7cfbf330ab5de2",
+      "bytes": 381,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_restock_config.py",
+      "sha256": "a9c8b5a2ebe81b043398d90b1df6a90fd7813aa582088984cb0710b29ca45e03",
+      "git_blob": "efd48e9a7f18d78a8d6ca7d00b265a8cfb7db8ff",
+      "bytes": 2984,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_speed15_profile.py",
+      "sha256": "d661c8ce28da5c2a90a67757204b01d422a61b81c2529ee6221ca61e36c0b6e5",
+      "git_blob": "5f332df832852dc6af82cf4fb453eea85cdd30e5",
+      "bytes": 2122,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_terminal.py",
+      "sha256": "41cdfb502b67ba218996d6d22f1301b951478f4771180c5b53e23ab27e33c8f1",
+      "git_blob": "56944622d2942da7a4a2c98e58eb3f044d79856f",
+      "bytes": 9714,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_upgrade_backend.py",
+      "sha256": "28622e526ef92806f2e89e9c69ab28bf1fd643c81f7bdffb1139522a66b8899c",
+      "git_blob": "c3f37a64042e0d52ff7a9aa7815900e5ff95aa10",
+      "bytes": 4231,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_upgrade_config.py",
+      "sha256": "c93ff4a2c9eb0f714d34aec3950dc840853534094a0d9f4be389dfb70599a6a0",
+      "git_blob": "f03db53798a0e814b10343e9e316c6bc4e921e3c",
+      "bytes": 2315,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_upgrade_profile.py",
+      "sha256": "b1e1c607817ece523481318a1a9d6cb8bb69f508bb250288c6db2ef101062ca4",
+      "git_blob": "e5ac5a4d0dbe29a204c2428bfc1d110b324a057c",
+      "bytes": 3894,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_upgrade_trace.py",
+      "sha256": "0d80ccfd3fd7ff7f38755c9de5779b1a6bba58f17fa13f75fb43d5bb9df6da75",
+      "git_blob": "de3762f5081ca5ae731c590e30899d6c2438f2c3",
+      "bytes": 1188,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_v091_profile.py",
+      "sha256": "456780b274b48e0000f2e5c59f936e3acbc16287c8289ad908ab64c1ad4588af",
+      "git_blob": "14a1b7bca24e0443f39e58ece44bff53d9874b9e",
+      "bytes": 459,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_a_v2_profile.py",
+      "sha256": "4a792c9c99452d2cced8e74f12df47ff704ea4d737e2f8b055df68c77f0ebf64",
+      "git_blob": "30e30bf900d2990ae5d1af19c5635baf24ba0662",
+      "bytes": 607,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/mode_b_eraser_geometry.py",
+      "sha256": "13aeb94bb1086cb5d69334bbda0cec06de5a001f7b904027380a4043613cea76",
+      "git_blob": "dded42891259223bb4a432c21885181dc32c5dfa",
+      "bytes": 1134,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/mode_b_native_stream.ps1",
+      "sha256": "5f638fa80cf21f228f5522e26dd6b0981e5e5c528eda9fba9643248ddbcb6619",
+      "git_blob": "16f65d450de802f33344977e9eeeb4421503c121",
+      "bytes": 18778,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/mode_b_red_depth.py",
+      "sha256": "2ea9a65708c7010ab195f5e56d4a973317647695705966386e70eba9c401bdbb",
+      "git_blob": "5d7f34698131b9c125b922076ec2f6581a410970",
+      "bytes": 4690,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/mode_b_serial_stream.ps1",
+      "sha256": "4911d2be9a90c5d116ad210176ad3416a4410304c73e731bfc2cdb820a14300f",
+      "git_blob": "3dc0ba7b631de160626f77f20e43fb1a05ef2624",
+      "bytes": 8539,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/mode_b_transit_speed.py",
+      "sha256": "6beddd1206f510395de1eaaabc252b65a9d3aeb729aa4c79534df5124f4eae7c",
+      "git_blob": "dfa0af112f4b4eaf9f41eac6f8b57f82b020d97a",
+      "bytes": 1739,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/plan_mode_b_motion.py",
+      "sha256": "95e79ad36b057e8e648aa260e2de537b0fd9d3de741b58549144557a29d35d34",
+      "git_blob": "7ddf727569cc7e7eb5b8a89f2f431a454cf65dcf",
+      "bytes": 1566,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_a_board_bridge.py",
+      "sha256": "f85c6330eab6cdb1be0e0fb5056fa071ee40ceeda13cb209f6f6df8fc5b9870a",
+      "git_blob": "34e53417fdfa180faa166d460ca5b940257b12fa",
+      "bytes": 6207,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_a_follow_bridge.py",
+      "sha256": "e31a5c74a1ae6b6ab170ff4005859737f343b6b0cbce40797bc619d3d33f8ea4",
+      "git_blob": "519023b6e6517e6d707d79a081be729298f62c65",
+      "bytes": 7183,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/prepare_mode_a_restock_bridge.py",
+      "sha256": "8af38b6d857df5348da7c4481b683fa491780c11fea34fe1e6661d2c3b343692",
+      "git_blob": "e19c9a6620c9c655588e49cf19a290b8be19da5a",
+      "bytes": 1756,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/prepare_mode_ab_candidates.py",
+      "sha256": "c6f75be7093f35398fe2869203e2738af7b9fa6ce65c9585dccb5c9dfbf46bf6",
+      "git_blob": "fbd3eaead9eb2f0e920c8f70fcef075dd9402489",
+      "bytes": 1913,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_ab_home.py",
+      "sha256": "b655c835eb4cf8c2d834b7c85e6c093c12d003159b11f2cfd24e1fb38cb442e7",
+      "git_blob": "d3ef98dcb0e3b0d250263ca4146bccc642a8354e",
+      "bytes": 1659,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_approach.py",
+      "sha256": "01ba610e6c7ad9ebb41be262e7bac5962c5e14cad9add1edd54f7ee78b1406f5",
+      "git_blob": "72db66c91956066e056be2798b7b5560e89e87a9",
+      "bytes": 8716,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_cylinder_restart.py",
+      "sha256": "309a4c55feadd38748666798ed51ed9f11af42d79ea5ae4a4dd5a594b0377f7d",
+      "git_blob": "3d6a54ffc46529e6ee8529a4c1b179a11b68be48",
+      "bytes": 7385,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_empirical_transfer.py",
+      "sha256": "c3a8d9fff598c1ae3d620a4497fd3667fe52e02c18854dcf4debf0b8e98a7ea1",
+      "git_blob": "5e990675eee62a28b4893941ff032e616c5bcf52",
+      "bytes": 22207,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_eraser_restart.py",
+      "sha256": "d94ad3d671d2377c1ad57470a2de788fc82a34b7bb0f8fc987f8a1d4a067feee",
+      "git_blob": "63d33424ff71e6f971280a567d49de9fcbff7791",
+      "bytes": 429,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_loaded_route.py",
+      "sha256": "c8d19ee1f24f7c118e01651ef86941cb3696ef04f6b21f5383ac98974c0071d4",
+      "git_blob": "5919082b0f1adf6fc8e1f590edc98c64a36507d8",
+      "bytes": 30272,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_public.py",
+      "sha256": "c8f1eb6bf09be53020e200f294b1a5d1aa9339602b9972b542f0adc3a9019d14",
+      "bytes": 4735,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/prepare_mode_b_public.py"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_red_restart.py",
+      "sha256": "17ad340efcc8a7390c3f40acb73817550b36c3eb1488a22603e5317b5bf8e5d0",
+      "git_blob": "3e4b61b5e40a67c0016cd4ec2e531c5786b9b9f8",
+      "bytes": 9285,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_restock.py",
+      "sha256": "bbffc22dae6e87e6651251e1bd36926f2bd301d8cd06ea4ab1455132f2f59b79",
+      "git_blob": "65b80c6bde6447670fe267cacde2ddb4d2dc85bc",
+      "bytes": 27825,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_restock_depth.py",
+      "sha256": "ff378527b559451059e9d3681425a876f83e5f2ef785b27ba926610a65ab12db",
+      "git_blob": "1a2c1938935c74fed99613ce16002298c4b15ad3",
+      "bytes": 8543,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_restock_session.py",
+      "sha256": "9a1da82f2786de180c7885b0c45726f80f5b946efaacd258707aa5babbda70e6",
+      "git_blob": "f83eaf8249526964a0ee227690fe43d56a824c2d",
+      "bytes": 4732,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_restock_speed.py",
+      "sha256": "67f78f8d3b336eec57b7e5d4e51b10c07e9f381ff5d1cc2d671e0075969743a0",
+      "git_blob": "813cca52ce048f6de5648db117e2610b1ff6e371",
+      "bytes": 7760,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_mode_b_ttl_full_trial.py",
+      "sha256": "028356a09ff37b215ce5eb9b350dd374c22fb7f3675f6e801a09d6aacad5d825",
+      "git_blob": "390db6511792945a3e7ff8724694c5dfea753678",
+      "bytes": 19660,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/prepare_multiobject_bootstrap.py",
+      "sha256": "7bafa2e2978a99351b2ce92d172435cba4566455e6567278a57f8aae66b6738b",
+      "bytes": 3404,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/prepare_multiobject_bootstrap.py"
+    },
+    {
+      "path": "project/scripts/prepare_multiobject_history.py",
+      "sha256": "979d73cfd6710e6144c32ef7019fbf5e575c80f4edd369ec7b73d148c20ab9f7",
+      "bytes": 806,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/prepare_multiobject_history.py"
+    },
+    {
+      "path": "project/scripts/preview_mode_b.py",
+      "sha256": "9fab0626360482fa435b07e4dace3074da13d73d9ba6eff0cc9ac32d388cefd0",
+      "git_blob": "1b31156e17e395186a060522e0d5af0c071bcc7c",
+      "bytes": 2288,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/probe_mode_ab_npu.py",
+      "sha256": "9d8631de3957a27271d2af06a915631c0dca992cd5ee9c0503d4c7495b534069",
+      "git_blob": "79369b0b70f4acb96805aa82a20ab33bec72e856",
+      "bytes": 568,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/quantize_mode_b_deployment.py",
+      "sha256": "c5f616bb537816871b51c7f0ab32a88d9c0558a64b82e97505cdcce71ed3eaca",
+      "git_blob": "3eb301e1f6d51100773ed78249169c72af6835c7",
+      "bytes": 3635,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/rehearse_mode_b_restock.py",
+      "sha256": "4f46931478c3eeacd1f57d02d4855bf0c275924abb746cc5264257fe715cfa25",
+      "git_blob": "45975991c7411ed1f733f12fba0803ad204225ef",
+      "bytes": 7592,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/render_mode_b_delivery_review.py",
+      "sha256": "c0368c60fed6295d3c158ea5a14c9db6a78616650e04f372b7ad8cabed4a47cb",
+      "git_blob": "e2e1e188c09d123139677d9ab2bc4f84bb51356d",
+      "bytes": 11756,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/render_mode_b_motion.py",
+      "sha256": "1935dc72e49238306564114b54def9a6931a542fc0c160a2520c984793864ce8",
+      "git_blob": "b330f5184dbf2e4a701927c0293d8af53381a4f7",
+      "bytes": 7236,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/render_mode_b_target_layout.py",
+      "sha256": "a2f754cfdc217d3d7dbdbc4799ec43ceb042c5c67844b3b441eaebf94d75f846",
+      "git_blob": "3ae0cd102283522e3c69d40d29b53395e140323c",
+      "bytes": 5792,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/replay_mode_b_visual_bundle.py",
+      "sha256": "4aa59c138ff40491663fe348152ce3343ef137bdaa9eda38e078c7300ca0e2a7",
+      "git_blob": "306aeb15664039c12da40bc354c89e5f1636dade",
+      "bytes": 5657,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/review_mode_ab_impl.py",
+      "sha256": "61f276c7a81f5ed66dafc63b5ff759c2e3294447544ded08a2be3db4772f09ba",
+      "git_blob": "8ebbf58585e2e4df35afa4c6e28ae14ca2a500c5",
+      "bytes": 7753,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/run_mode_a_follow.py",
+      "sha256": "005bc5563a34368cd860ee5990a14d9723ebc128febf9859dfb59442f417bf2b",
+      "git_blob": "79cd083a95513cca2ed41a2e70016f715e9768fc",
+      "bytes": 21341,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/run_mode_a_residual_trial.py",
+      "sha256": "16df0c8cac3fa5c9679e3c51bc3d4eda99e04c9950190aff23fdd4c6369bdae4",
+      "git_blob": "979ce1138107c2723b21c23c5b5e09bd2ce139b2",
+      "bytes": 15122,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/run_mode_a_restock.py",
+      "sha256": "805a83a0c42f02c629402aa7563a413b42c428ebaaf1401eca914b1d0ea7784f",
+      "git_blob": "f7f840203a328a24557c9f40dfc4f31049c71d29",
+      "bytes": 24852,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/run_mode_a_walkthrough.py",
+      "sha256": "f05952dccd2c062c4d07d0684c01043cbe9961b0a7b6d5152eb3724e524a5219",
+      "git_blob": "bfabc2114e1583c0f2f992b0f2b56370de0587a4",
+      "bytes": 14302,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/run_mode_ab.py",
+      "sha256": "2d6a81c0fafcaa03fd10ff834b120baf290166c740c2c68b22da1973a360c2c2",
+      "git_blob": "1690f7c08b7011d67ec52ff232fc81c3b6b8125e",
+      "bytes": 5504,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/run_mode_b_restock.ps1",
+      "sha256": "75471dc29e5e72099a16f2134eaa48cc9a2be4ec377b3a45b26ef7bc72efaa6b",
+      "git_blob": "e370b86d09650ad4472cc847c27a40a2f2ce5bce",
+      "bytes": 7081,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/run_mode_b_restock_session.ps1",
+      "sha256": "968cc4d137716e8383d42ca983b65be595e4fff33efdc71444ec15eafc333fc1",
+      "git_blob": "0a5b9e5e55d8a53eedc7751f757c20069e7dc2c3",
+      "bytes": 3253,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/run_mode_b_ttl_cylinder_trial.ps1",
+      "sha256": "7150f9a54a2bd01daf91f3e7efc80f383b69db66e323d4237f0685c9d7ecb89c",
+      "git_blob": "976d9981906b2479dbee8a54832c2f06db41b840",
+      "bytes": 721,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/run_mode_b_ttl_eraser_trial.ps1",
+      "sha256": "ef3889455816ade3a3795e0ba96ee1fb6ec96f1937a91d678478ef9405ac0298",
+      "git_blob": "547b41d014d421efcc883ddd4351ba4b6379df07",
+      "bytes": 564,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/run_mode_b_ttl_red_trial.ps1",
+      "sha256": "7db9960ac7a08b35d845dac49a7affb519e61169300aa8fb6913c4fab62252d3",
+      "git_blob": "0790d9cab3f5f703e9ea578e0b20f389e29d518c",
+      "bytes": 7674,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/set_mode_ab_camera_profile.ps1",
+      "sha256": "8f32c9110de8b1dd7ae66b6bf6174c1470f041f8a6a7bf83d058f0ee06fb430d",
+      "git_blob": "c8346109d0da6f2de8b43ebae2f26bfe121446db",
+      "bytes": 750,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/summarize_mode_ab_session.py",
+      "sha256": "5cba7355e904c4085d6bb11076cfb9870310be5dbfb2b628dec62d7160e311f1",
+      "git_blob": "1427890338d2f37a8f2ad92e2e6d47f5f43ddbee",
+      "bytes": 5417,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_control.py",
+      "sha256": "c2ec20da260e6709b29023bc68aeafffd5463d7c2e36811f1c9664f476637fca",
+      "git_blob": "0fed60ca3a3e662ee7230bee119cbe504cb08639",
+      "bytes": 8361,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_diagnostics.py",
+      "sha256": "fd3d4cf10739b814d52999b22819ee210c4340b5fb7d6c8185f68d961ed8c3cc",
+      "git_blob": "8614f4aa5d383627904a92aea8081282daaba001",
+      "bytes": 1477,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_family.py",
+      "sha256": "9034b5ac941d5abcbaa7818ffedbadea9efce081e2e092d32acfd761e2639aa4",
+      "git_blob": "b96e195ce281bcc6637edc667d28eabc599480b1",
+      "bytes": 2449,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_http.py",
+      "sha256": "c1de5f237bc7435e341ace928d90c4a77f9d8d393e8fe3900e14777a2c11102b",
+      "git_blob": "92c987024c839fd692cfe4fab88071a6aac18c8f",
+      "bytes": 3564,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_native.py",
+      "sha256": "30075eadcc1a2e8c13bf66f3f6223d1f99fbf815feff23db36de9a383d411aae",
+      "git_blob": "3aff06066c07253e9f2d19abe50b7bc282d73d52",
+      "bytes": 6036,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_planning.py",
+      "sha256": "c8cd36bcf9c51351e58628c23d397a84d78145a39239ebb1bd8412a12214e078",
+      "git_blob": "fd7fab7bbdc7fd2192dc293c19d1141b56633be5",
+      "bytes": 8020,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_shared_red.py",
+      "sha256": "b217baba5f3abc418e968b0fdd8a643a7ea83a5b53fcf50848527cf15f6a5eb7",
+      "git_blob": "d957371facbb0ec441c5887e68820a641300e00a",
+      "bytes": 6548,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_snapshot.py",
+      "sha256": "a153fcedef03563ea22a56e974b835a14971d52c885fed0e493a1ad804b2e9d7",
+      "git_blob": "b6ec20e70abf5b66c0f1477b6443d1ee22fb7ff2",
+      "bytes": 5138,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_startup_map.py",
+      "sha256": "5f3020fe54eb0d1e8ee2e8b90be45d41e8ac9e0443723f4fd129d8e6895220e1",
+      "git_blob": "217e1fba931e13a37fb066a5b9f04659e2f9d6ff",
+      "bytes": 4285,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_ui.cjs",
+      "sha256": "b0cd5c1710990762f533645712453f55fa0ec34de2ed40a7b80e936defb3e86b",
+      "git_blob": "b566888d9844dcf9e73224a158c854eb83f2adc7",
+      "bytes": 4013,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_ab_uploads.py",
+      "sha256": "93109da149b961567a35fc79e654a78d0041181e737274477d68b84df482284f",
+      "git_blob": "22cdf126d07916c635e3520d69d443124421ecd3",
+      "bytes": 4133,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_cylinder_transfer.py",
+      "sha256": "1d79a5fd6f9cd90818cf88c8ad5c1eea1b92bbf954b74cc4da1227c337a80123",
+      "git_blob": "67c8ee4e89427520c8f7a20a77dff336bc0e8ea2",
+      "bytes": 6667,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_deployment.py",
+      "sha256": "b4a480e97c4c051453592e6960479b990f14a36e6a83c38d61e41a5c2e4a93c0",
+      "git_blob": "bd45971777f4c28f9c7b4d5a5f787a93a900bc33",
+      "bytes": 6500,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_empirical_transfer.py",
+      "sha256": "e52705ff014a19ac68df6a26c3641e98a3df026731deee13fba21601f3e7d799",
+      "git_blob": "8330b4b9ceea061bbfee1d9c925755c528ac1e19",
+      "bytes": 3387,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_eraser_transfer.py",
+      "sha256": "dd6e5ec547ce0ddb3a3eac961df307e0926bfb9ce5a1159f39b716690f954558",
+      "git_blob": "a6d79086c9a1f72437a29c351630e9ac3113fa82",
+      "bytes": 6303,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_fpga_review.py",
+      "sha256": "4d721d0902251f76fcbe0e04f2cd16fac61c3811934ff732d864a899f2f33515",
+      "git_blob": "5cd450ffab84eef16d0de0e08aac59d5566dde92",
+      "bytes": 5564,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_full_workspace.py",
+      "sha256": "bb8bf25718ae87dcb7b6c57ab17b86206a9e67ae044c0525c2891a7c0da95b80",
+      "git_blob": "23b3de105b643464d9c4121b7be6a3cdd23ab97f",
+      "bytes": 5044,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_full_workspace_install.py",
+      "sha256": "a0c7a96c901cec3a416cc108aa884a3a72c6acb77cfbb05166bb12825ce42f54",
+      "git_blob": "24b0dde5af3f4917e4b077e7889024164c9b9e90",
+      "bytes": 2940,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_local_grasp_correction.py",
+      "sha256": "807a6f6470bb783e1f39ac702285ce99e26325b316dc9cd0de5596a8249bc565",
+      "git_blob": "fda4e807c445ea3ef77cf124edc4b7c5f14b2826",
+      "bytes": 3933,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_motion.py",
+      "sha256": "98873f4499ba00b1e8121f34dd86da1bcf3d67e6794ff4fe4710970d8b6ef9dd",
+      "git_blob": "99487aae65c92a2ed13fb6637cec08cb63837333",
+      "bytes": 16592,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_red_depth.py",
+      "sha256": "b01b66561add66ae130d0d223225160127713fd145fff16f69c57d7a60902581",
+      "git_blob": "40b728655aa2174415f10a1c19554e272f0b8564",
+      "bytes": 5488,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_restock.py",
+      "sha256": "9301e3f3a0424ff1de4a5b44e308dbaebf8ddceb7798174b74f7c4443886941b",
+      "git_blob": "229be1319b4ba0b78055f9d829435bcffa599a20",
+      "bytes": 8333,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_restock_depth.py",
+      "sha256": "72e43d3af17e8fb31978c2a2fae15038fbdade11ad7a5d12d57207ef26984418",
+      "git_blob": "0e592e664f3ab4dee801f0d334a01949bf3eda92",
+      "bytes": 2835,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_restock_rehearsal.py",
+      "sha256": "dbb99dba97e6fbb1b43f7f1db3d80c8a406e1860a16984f3bd014e94d0961339",
+      "git_blob": "c662535395d0a645319af932fd93fc4e1fed333f",
+      "bytes": 2134,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_restock_session.ps1",
+      "sha256": "bf8ee544049e79d3f0df0f642f23c8c37b157292a3c7afc2452a044970e7ad41",
+      "git_blob": "cb075d06ec092c8365acefba432ad1b88d0fe99b",
+      "bytes": 7182,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_restock_session.py",
+      "sha256": "e56aed4e5bf48251c2614dff449d6ff2bbfef0d55381093bcd914d7bbcf4a619",
+      "git_blob": "0c05c632c4f9ec70d9d43888085a0ea569653362",
+      "bytes": 1922,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_restock_speed.py",
+      "sha256": "7f3036ce3f5fbd35ec1b2d9f328a2e44440ab26c090b782ba3a3c4104d3fd69b",
+      "git_blob": "8a9787bb487468d661790ca5f77a3b954e36e32a",
+      "bytes": 2878,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/test_mode_b_surface_augmentation.py",
+      "sha256": "f7434658c73eb889b86703ffceb33760974bfd1b9002983267863ff1760531ec",
+      "bytes": 3101,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/test_mode_b_surface_augmentation.py"
+    },
+    {
+      "path": "project/scripts/test_mode_b_teammate_handoff.py",
+      "sha256": "0ced518824e567bc85e481fb54257e5117a19ceefdb69fcafbb9dc304fd7e691",
+      "git_blob": "3cff1fe7499b2f7b47c2c9ebd31841cc175e52a5",
+      "bytes": 4154,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/train_mode_b_public.py",
+      "sha256": "90a64c03138779f6da7d20a6925383b870c216b5c5b7e6e27987c8f57e676f20",
+      "bytes": 5173,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/train_mode_b_public.py"
+    },
+    {
+      "path": "project/scripts/train_mode_b_surface.py",
+      "sha256": "266353d309249642968b4c1ca0d8f99ecebd36d46d6b515c478750bd7f55fe73",
+      "bytes": 8214,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/train_mode_b_surface.py"
+    },
+    {
+      "path": "project/scripts/train_multiobject.py",
+      "sha256": "fef254a2734cb32c553bf4fc8053f0191640911b3fb47037636ab001a68bb7fb",
+      "bytes": 3489,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/train_multiobject.py"
+    },
+    {
+      "path": "project/scripts/train_multiobject_surface.py",
+      "sha256": "d2c1d2b1ab897ab6803310cef55a6c313aa69ad5d623b0caa6974c024e3799d7",
+      "bytes": 4379,
+      "origin": "DEVELOPMENT_TRAINING_SOURCE_SUPPLEMENT",
+      "original_relative_path": "scripts/train_multiobject_surface.py"
+    },
+    {
+      "path": "project/scripts/try_mode_b_loaded_route.ps1",
+      "sha256": "3fedc04a1a124e248f538764bb59fdcb9182128164a2b44d871ffabe7506713d",
+      "git_blob": "a63cd31ff1fc5531f21ad96811fef188f300eaee",
+      "bytes": 13717,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/try_mode_b_ttl_home.ps1",
+      "sha256": "dd4f565d52865a38f46f5ae534582cafbbb2efff74f1bc30b7b872b095213117",
+      "git_blob": "6a6a60d7f258f63455d5c96abb92fdc5445b4374",
+      "bytes": 4095,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/validate_mode_b_motion.py",
+      "sha256": "79ca9af48fd5cc34990cc96a002cf4b758488537c87a8fd393aea9c983d11edc",
+      "git_blob": "ac57b14189b5eeaac79e909123196729e87f9655",
+      "bytes": 5790,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_deployment_archive.py",
+      "sha256": "63cb5190fbc9399a968ae4e5db37b582764979e8ab50a0c6a1b9af4b8843b01a",
+      "git_blob": "77e82089a3f80ca8c8a2ce484f9d10abb6d0c395",
+      "bytes": 1770,
+      "origin": "SEALED_P4_1_PYTHON_IMPORT_DEPENDENCY"
+    },
+    {
+      "path": "project/scripts/verify_mode_ab_motion.py",
+      "sha256": "dea4eaf7995f3dd0576b639fb656c8e09196da2cbcf622f68c5a6e6e9036cb29",
+      "git_blob": "cd5e009f5050327c2c5ac597e2a67274d8f971c4",
+      "bytes": 4775,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_ab_p4_workspace.py",
+      "sha256": "fa95b8eb6cc102d302e02015d648414d0055a900a33e7ace8e487525b5e456dc",
+      "git_blob": "748f54d2dcb29a15c4762e63d7dfd564a937ba9d",
+      "bytes": 1812,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_ab_pc.py",
+      "sha256": "efdaf1dd27971b3e0c9a5260a6785702e69fee4e9930c2967b8c606fdbed6e41",
+      "git_blob": "8d6a96ce98394797ca8b38af73878b8af6a0f4ce",
+      "bytes": 2300,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_ab_planning.py",
+      "sha256": "0832bc003808fd953c130ef577bb1078ead70f81da7bca7ddf566bff66ec7200",
+      "git_blob": "97834e00e495c8ece50f05d978b037c0a4074056",
+      "bytes": 2464,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_b_amd.ps1",
+      "sha256": "bba8593d80161ac510f59dc11b4aabfc68c10f878c0f6927921194c905205364",
+      "git_blob": "87ef50cd8cbdfe4e06b1cf0e9c97777dcea5e5c6",
+      "bytes": 5089,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_b_optimized_handoff.py",
+      "sha256": "ca695e88eb08700d473f01223a773374cf48a74efbe459d4a58f71ea6d59994f",
+      "git_blob": "9bc6fedf761ea506217133604053fc96d3924e08",
+      "bytes": 8979,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_b_restock_accepted.py",
+      "sha256": "cd716660c1a16598f18fb12fd8dce29ecba00bdadbccd102a7addc9553b6a953",
+      "git_blob": "9cc489507988394b34f8dee08e34ef2cc374bdc2",
+      "bytes": 5743,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_b_restock_review.py",
+      "sha256": "154ce03362a3cdb66c342ad9322da658e6e24d17cd9d00b25cf20e15f0ffb91d",
+      "git_blob": "ed427273de5edfa406a4605a3f337808b39766d9",
+      "bytes": 5235,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_b_teammate_handoff.py",
+      "sha256": "394f0e479216fb6b08030b0f918709693dac1abb67ad3a53464fab8efea4e7ec",
+      "git_blob": "a9a3325049d2be49391868bd8762b4815f1b1554",
+      "bytes": 10260,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/scripts/verify_mode_b_visual_bundle.py",
+      "sha256": "7b2ade5aace504a3a621e87a2eca7fa8e5351a3d582c2b9427e267cef28b3f02",
+      "git_blob": "6da6ed0b3c76949bf3b49a2d04ff7d272fdae289",
+      "bytes": 3156,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/setup_mode_ab.ps1",
+      "sha256": "c7087bf954c2f92df323eb685f3847f6f853a065d7f76b2a8cd81388d9d8d138",
+      "git_blob": "4fa8ef139157214accc0674853e975069717bb47",
+      "bytes": 2174,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/start_mode_ab.ps1",
+      "sha256": "d78fb308a26067155ba70ecbc9cfcd01abf1d6b3f03de1dd683278ba75f1f278",
+      "git_blob": "c8dbbc4def1dbbc429b7783d660f547a85c93412",
+      "bytes": 846,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/mode-ab/app.js",
+      "sha256": "9728aaafde4bde0c4a5bfdcb6ff126e67a7837a3bb0a179b157df7fd6b89d70a",
+      "git_blob": "972ca33fbf96850fe2edbad380e54c9040072aec",
+      "bytes": 10350,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/mode-ab/index.html",
+      "sha256": "4241b8e6ca85fe3b89796607a2b8bc2f946047db632abde026e6cc5b92f4eda2",
+      "git_blob": "e95d8f2fc4281a299ef94bfeb542f558de232286",
+      "bytes": 4937,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/mode-ab/styles.css",
+      "sha256": "c09b3fc7abd02cd12ee9f095ea73e3fa67bad63524fe5401c6bf5e8d3619d7ad",
+      "git_blob": "14a43b9c1ea497ab3e8c6ae43c2af985ec630bff",
+      "bytes": 7597,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/api_cn.md",
+      "sha256": "6f164b1d94b874df275cbf744b2bc69a04b32b4971cb2e16b114de2753e6224b",
+      "git_blob": "1dc1ae0e21da291bf6917c061f6d79db8e057586",
+      "bytes": 7444,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/config.example.json",
+      "sha256": "f52abb5de4d68f94f545ac75fdf4b28e22b7f232f8c7324ec939ab7dd47242b7",
+      "git_blob": "5f4bdba98a7a4c84e4e32370af643afa66b4f30f",
+      "bytes": 181,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/public/app.js",
+      "sha256": "d223c142dfe4d0fb5d9e3c34a297b711a458e512ce8880244ffa06b33804ec9d",
+      "git_blob": "895befc8ca7f2e85892b6802dc344c4a31552857",
+      "bytes": 29976,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/public/assets/mark.svg",
+      "sha256": "dcab3137e5b4f3b7f538d580e50181878e1a02e37bd378df08ab23f88d60d0bd",
+      "git_blob": "585a770a3d4dbc69f264056e2d5174fc50b292d3",
+      "bytes": 292,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/public/assets/mode-a-scene.svg",
+      "sha256": "766c4a9ace0c39a8ea2fc1fcdbb0662d11ba5a5264ba76d6af8549c20d05ff65",
+      "git_blob": "ad0ce287b5c1c4ee40fc390b3a66ad8b577bea3d",
+      "bytes": 3049,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/public/assets/workspace.svg",
+      "sha256": "4f190b7655150cd900e59aa83e4a6653128d4eef18870d97c21a83c5ec5d4275",
+      "git_blob": "d99684486fb5ff6dd07f202d971ea4c857246228",
+      "bytes": 3189,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/public/index.html",
+      "sha256": "087005c7573c7ea8e39777920ec2ca318a63afb6c1a4e6e6d0fae14291af59f8",
+      "git_blob": "60678e0f37ea33a22033b9e4a01f667b584b6f7c",
+      "bytes": 12185,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/public/state.mjs",
+      "sha256": "a510b2649efa0beaca09d33730f40a97dd14479b63356b5cd6d80d1e890a6efb",
+      "git_blob": "db5b484f2a582edd95a600941aad139f3e1c7699",
+      "bytes": 3319,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/public/styles.css",
+      "sha256": "3db348e98f9c5d7595eee2bb7b1d24d1d1180980941f45f196857dc501b4aef4",
+      "git_blob": "9ee04c0f7dc904ba8c5ed7d8e0725073ba0efe5f",
+      "bytes": 27354,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/readme_cn.md",
+      "sha256": "1eaf8170da2e8201ccf69faa0bc7111549d4c2b4a21d4c2ee6deb3e42ddb1c14",
+      "git_blob": "3ec33169ccbe8db730c1ac64069b6778feb9e1c0",
+      "bytes": 7412,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/server.py",
+      "sha256": "9c8e6b45d0cb6f38a25742f500cc33481d7b7db42857e55c7d60636256b382e7",
+      "git_blob": "1b4df20e749340637319f803e93a08e647e10c30",
+      "bytes": 15548,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/sources_cn.md",
+      "sha256": "538260bfddcd06a4505259af853d0d7445f7efc6255fc3d68fa4280eb4118887",
+      "git_blob": "25e2cb2c0884b163d8567b6330286d87f5bc634b",
+      "bytes": 4111,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/test-browser.cjs",
+      "sha256": "267d484ffdedc427a5420329a54cdac631510b51388f499f74c437425811b386",
+      "git_blob": "858bcec5e34fc3b574ea40d1824805b714300b61",
+      "bytes": 10808,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/test-state.mjs",
+      "sha256": "a8c8e795f057dc6de531d1874893b8189771cbbb2629be56d70c1fe2e1f18dae",
+      "git_blob": "b11364efb9a0aadfb511c95fb29db3d845a6460e",
+      "bytes": 2911,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/test-vision-browser.cjs",
+      "sha256": "e80df865eb738c17fc34a9062c891e52d2b239e440ea6536b7172c0c67c0f381",
+      "git_blob": "673d64ce15fbd3c40a0ff0100647f81d8b47d634",
+      "bytes": 7003,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/verification.json",
+      "sha256": "50b63cce667376ed43b2abf0622e5399856c922f9c2cac255e5fb5753b8553d2",
+      "git_blob": "07c1f8e8239a242198a9cae8192fdd2c487c6fe9",
+      "bytes": 1539,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "project/web/project-console/vision.py",
+      "sha256": "e18d8950f121e67e5e852124dfeb9d33d7e2556b5611c5cd13b811bbb1a8113a",
+      "git_blob": "6c2aced058e7e6157fef0d58ab151d2b5bf7e12a",
+      "bytes": 8537,
+      "origin": "SEALED_P4_1_SOURCE_UNMODIFIED"
+    },
+    {
+      "path": "tools/licensing/audit_aipc_sources.py",
+      "sha256": "24c90a037429012b3dabb735ae69a6a5e39fbceb9ff338acd5258e4febece81b",
+      "bytes": 9223,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    },
+    {
+      "path": "tools/licensing/test_aipc_sources.py",
+      "sha256": "c5ac16f90e1722e7c441a718abff3b15835bd93826445e2b011bc7867cae788d",
+      "bytes": 2001,
+      "origin": "PRIVATE_BASELINE_LICENSE_AUDIT_METADATA"
+    }
+  ]
+}

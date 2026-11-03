@@ -1,0 +1,13 @@
+{
+  "files": {
+    "current_models_final/audit.json": "b3e585faf6536c913c5646bee1a945e4f7c2989562535c5e26afe4eb1a577bfe",
+    "current_models_final/used_public_image_sources.csv": "fe14fd741d961e7fe53d1d724da0cb4782e4a832eabedf40b2aca4cdafd07fcf",
+    "dependency_license_metadata.json": "d8daad3669a9caec2b222f9919d7741262d8b0618f7a80c1215e4a8ecd394353",
+    "lvis_official_image_license_mapping.json": "01409a88bccbd57ed11964b9ac7b871b1ef25d7599b17cd695d837e68698a528",
+    "metadata_lineage.json": "0bdd1475595e9122a601489a3825dda64b4f1d745c7593b1bd6f2b03585f2a59",
+    "PERMISSION_REQUEST_DRAFTS.md": "413b99c8dd3838cf01cd2c2387561a702dc7d9bd97ad24b306dc3d1eb2840064",
+    "README_CN.md": "0a5f3ba98c89c4725db9a6beaddbfc9a2abc455987c2df4d9cc81c9c846df33a",
+    "upstream_followup_evidence.json": "121f54ef6296b6f9b9969a8d90bcf33d56e98c9337c650e14548ab1a288bbf0f"
+  },
+  "note": "Metadata audit only; no license grant or legal clearance certificate"
+}

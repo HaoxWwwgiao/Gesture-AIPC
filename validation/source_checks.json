@@ -1,0 +1,239 @@
+{
+  "schema": "gesture.aipc.source_validation.v1",
+  "date": "2026-11-03",
+  "checks": [
+    {
+      "name": "test_mode_ab_control.py",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "project/scripts",
+        "-p",
+        "test_mode_ab_control.py",
+        "-v"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "test_mode_ab_http.py",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "project/scripts",
+        "-p",
+        "test_mode_ab_http.py",
+        "-v"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "test_mode_ab_diagnostics.py",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "project/scripts",
+        "-p",
+        "test_mode_ab_diagnostics.py",
+        "-v"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "test_mode_b_surface_augmentation.py",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "project/scripts",
+        "-p",
+        "test_mode_b_surface_augmentation.py",
+        "-v"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "release_negative_checks",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_source_release.py",
+        "-v"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "license_metadata_tests",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/licensing",
+        "-p",
+        "test_aipc_sources.py",
+        "-v"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "train_mode_b_public.py_help",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "project/scripts/train_mode_b_public.py",
+        "--help"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "train_mode_b_surface.py_help",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "project/scripts/train_mode_b_surface.py",
+        "--help"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "export_mode_b.py_help",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "project/scripts/export_mode_b.py",
+        "--help"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "train_multiobject.py_help",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "project/scripts/train_multiobject.py",
+        "--help"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "train_multiobject_surface.py_help",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "project/scripts/train_multiobject_surface.py",
+        "--help"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "export_multiobject.py_help",
+      "command": [
+        "-B",
+        "-X",
+        "utf8",
+        "project/scripts/export_multiobject.py",
+        "--help"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "production_ui_state_tests",
+      "command": [
+        "node",
+        "project/scripts/test_mode_ab_ui.cjs"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "production_js_syntax",
+      "command": [
+        "node",
+        "--check",
+        "project/web/mode-ab/app.js"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "disconnected_preview_status_http",
+      "command": [
+        "python",
+        "-B",
+        "project/scripts/run_mode_ab.py",
+        "--preview",
+        "--no-browser",
+        "--port",
+        "0",
+        "--seconds",
+        "3",
+        "--out-dir",
+        "<fresh-local-output>"
+      ],
+      "passed": true,
+      "exit_code": 0,
+      "camera_ready": false,
+      "board_connected": false
+    }
+  ],
+  "all_passed": true,
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "opencv-python": "5.0.0.93",
+    "torch": "2.14.1+cpu",
+    "onnxruntime": "1.31.0"
+  },
+  "scipy": "1.18.1 (isolated check dependency)",
+  "model_inference": "NOT_RUN",
+  "millimetre_accuracy": "NOT_RUN",
+  "npu_acceptance": "NOT_RUN",
+  "hip_acceptance": "NOT_RUN",
+  "hardware_access": false
+}
